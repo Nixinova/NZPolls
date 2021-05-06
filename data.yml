@@ -1,1 +1,12 @@
 # New Zealand Election Polling Data
+
+'2023':
+- {date: [TBA]}
+- {date: [2021-03-29, 2021-04-25], org: ROY, n: 933, ACT: 9, GRN: 13.5, LAB: 41.5, MRI: 2.5, NAT: 29.5, NZF: 1, TOP: 0.5}
+- {date: [2021-03-21, 2021-03-28], org: ROY, n: 924, ACT: 11, GRN: 12, LAB: 45.5, MRI: 1, NAT: 23, NZF: 2.5, TOP: 2}
+- {date: [2021-03-09, 2021-03-13], org: COL, n: 1006, ACT: 8, GRN: 9, LAB: 49, MRI: 1.5, NAT: 27, NCP: 1.4, NZF: 1.8, TOP: 1.2}
+- {date: [2021-01-25, 2021-02-21], org: ROY, n: 924, ACT: 7.5, GRN: 13.5, LAB: 45, MRI: 1, NAT: 29, NZF: 1.5, TOP: 1}
+- {date: [2021-01-04, 2021-01-24], org: ROY, n: 937, ACT: 9, GRN: 11.5, LAB: 47, MRI: 2, NAT: 25, NZF: 2, TOP: 1.5}
+- {date: [2020-11-23, 2020-12-13], org: ROY, n: 923, ACT: 10, GRN: 10.5, LAB: 44, MRI: 2, NAT: 28, NZF: 2, TOP: 2}
+- {date: [2020-11-28, 2020-12-02], org: COL, n: 1004, ACT: 8, GRN: 8, LAB: 53, MRI: 1.5, NAT: 25, NCP: 1.1, NZF: 1.6, TOP: 0.5}
+- {date: [2020-10-26, 2020-11-22], org: ROY, n: 939, ACT: 10.5, GRN: 12.5, LAB: 44, MRI: 1.5, NAT: 25.5, NZF: 1, TOP: 2}
