@@ -16,10 +16,12 @@ Dates with a day of `00` are used for pollsters that conduct monthly polls while
 - GRN: Green
 - LAB: Labour
 - MRI: Maori
+- MNA: Mana
 - NAT: National
 - NCP: New Conservative
 - NZF: NZ First
 - TOP: Opportunities
+- UNF: United Future
 
 ## Pollster IDs
 - BAU: Bauer Media
