@@ -5,10 +5,7 @@
 ## Data format
 
 This repository's data is stored in a YAML file.
-
-## Data type notes
-
-Dates with a day of `00` are used for pollsters that conduct monthly polls while not releasing the exact start and end dates of the poll.
+Each election has its own root-level array sorted in reverse chronological order, with the election as the first item.
 
 ## Parties
 
