@@ -1,0 +1,24 @@
+{
+	"name": "nzpolls",
+	"version": "1.0.210803",
+	"description": "A complete list of New Zealand polling data.",
+	"keywords": [
+		"new zealand",
+		"polls",
+		"polling data"
+	],
+	"homepage": "https://github.com/Nixinova/nzpolls#readme",
+	"bugs": "https://github.com/Nixinova/nzpolls/issues",
+	"repository": "https://github.com/Nixinova/nzpolls.git",
+	"license": "Unlicense",
+	"author": "Nixinova (https://nixinova.com)",
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"data.yml"
+	],
+	"scripts": {},
+	"dependencies": {
+		"js-yaml": "^4.1.0"
+	}
+}
