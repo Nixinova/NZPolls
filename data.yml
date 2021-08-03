@@ -3,6 +3,8 @@
 '2023':
 - {date: [TBA]}
 # Polls:
+- {date: [2021-07-01, 2021-07-31], org: ROY, n: 945, ACT: 13, GRN: 10, LAB: 39.5, MRI: 2.5, NAT: 29, NZF: 2, TOP: 3}
+- {date: [2021-07-22, 2021-07-29], org: REI, n: 1000, ACT: 11.1, GRN: 8.5, LAB: 43.0, MRI: 1.9, NAT: 28.7, NCP: 1.6, NZF: 3.4, TOP: 0.8}
 - {date: [2021-05-31, 2021-06-27], org: ROY, n: 927, ACT: 11.5, GRN: 12.5, LAB: 38.5, MRI: 2.5, NAT: 29.5, NZF: 1.5, TOP: 2}
 - {date: [2021-05-22, 2021-05-26], org: COL, n: 1002, ACT: 9, GRN: 8, LAB: 46, MRI: 1.8, NAT: 29, NCP: 1.5, NZF: 1.2, TOP: 1.8}
 - {date: [2021-04-26, 2021-05-23], org: ROY, n: 932, ACT: 9, GRN: 11, LAB: 45, MRI: 1.5, NAT: 28.5, NZF: 2, TOP: 1.5}
