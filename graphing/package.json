@@ -1,0 +1,6 @@
+{
+    "main": "index.js",
+    "dependencies": {
+        "js-yaml": "4.x"
+    }
+}

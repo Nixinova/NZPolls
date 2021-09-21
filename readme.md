@@ -5,3 +5,8 @@ Includes opinion polls conducted before elections as well as official election r
 
 Data is located in [data.yml](data.yml).
 See [docs.md](docs.md) for documentation of the fields.
+
+## Graphing
+
+This data can be used to create election polling charts.
+See the [graphing](graphing) folder for information and source code relating to using this data to generate such a chart.
