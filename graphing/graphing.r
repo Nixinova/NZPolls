@@ -1,10 +1,11 @@
 library(ggplot2)
 library(dplyr)
 
-setwd("Documents/GitHub/nzpolls/graphing") # replace with own working directory
+setwd("~/Documents/GitHub/nzpolls/graphing") # replace with own working directory
 
 pollingData <- read.csv("local-data.csv")
-spansize <- 0.65
+
+spansize <- 0.65 # higher = smoother
 
 pollingData <- pollingData %>%
   arrange(desc(as.Date(endDate, '%Y-%m-%d')))
@@ -21,7 +22,7 @@ NCP_color <- "skyblue2"
 
 primary_votes <- ggplot(pollingData, aes(x = as.Date(endDate, '%Y-%m-%d'))) +
   theme_bw() +
-  
+
   # Labour
   geom_point(aes(y = LAB), colour = LAB_color, size = 2, alpha = 0.3) +
   geom_smooth(aes(y = LAB, colour = "LAB"), span = spansize, se = FALSE) +
@@ -46,9 +47,9 @@ primary_votes <- ggplot(pollingData, aes(x = as.Date(endDate, '%Y-%m-%d'))) +
   # New Conservative
   geom_point(aes(y = NCP), colour = NCP_color, size = 2, alpha = 0.3) +
   geom_smooth(aes(y = NCP, colour = "NCP"), span = spansize, se = FALSE) +
-  
+
   # Y-axis
-  scale_y_continuous(limits = c(0, 60), minor_breaks = NULL, expand = c(0, 0)) +
+  scale_y_continuous(limits = c(0, 60), breaks = c(0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60), minor_breaks = NULL, expand = c(0, 0)) +
   # X-axis
   scale_x_date(date_breaks = "4 months", date_labels = "%b '%y", minor_breaks = NULL) +
   # Axis styling
@@ -59,10 +60,12 @@ primary_votes <- ggplot(pollingData, aes(x = as.Date(endDate, '%Y-%m-%d'))) +
   ) +
   # Axis labels
   labs(y = "Party vote (%)", x = NULL) +
-  # Color mapping
+  # Colors and key
   scale_color_manual(
     name = "",
+    # Legend
     labels = c("Labour", "National", "ACT", "Greens", "NZ First", "Maori", "TOP", "New Conservative"),
+    # Color mapping
     values = c("LAB" = LAB_color, "NAT" = NAT_color, "ACT" = ACT_color, "GRN" = GRN_color, "NZF" = NZF_color, "MRI" = MRI_color, "TOP" = TOP_color, "NCP" = NCP_color)
   )
 
