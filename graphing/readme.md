@@ -13,7 +13,7 @@ The graphing script is written in the R programming language.
 ## Generate polling data
 1. Open your CLI and `cd` into `[...]/nzpolls/graphing`.
 2. Run `npm install` to install the necessary dependencies.
-3. Run `node .` to generate the CSV data file.
+3. Run `node . 2023` (or any other election year) to generate the CSV data file.
 
 ## Generate chart
 1. Open RStudio
