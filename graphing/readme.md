@@ -11,9 +11,9 @@ The graphing script is written in the R programming language.
 - [RStudio](https://www.rstudio.com/products/rstudio/download/), a development environment
 
 ## Generate polling data
-1. Open your CLI and `cd` into `nzpolls`.
+1. Open your CLI and `cd` into `[...]/nzpolls/graphing`.
 2. Run `npm install` to install the necessary dependencies.
-3. Run `node graphing` to generate the CSV data file.
+3. Run `node .` to generate the CSV data file.
 
 ## Generate chart
 1. Open RStudio
