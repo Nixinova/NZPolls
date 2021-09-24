@@ -1,6 +1,5 @@
 # NZPolls Graphing
 Political polling data and R code to generate charts for New Zealand election polling data.
-Based on [metacoretechs/wikipedia-aus-poll-charts](https://github.com/metacoretechs/wikipedia-aus-poll-charts).
 
 ## Prerequisites
 Data CSV generation is written in JavaScript for use by Node.

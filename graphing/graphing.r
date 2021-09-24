@@ -1,19 +1,17 @@
 # In RStudio, Ctrl+A then Run
+
 library(ggplot2)
 library(dplyr)
 
-setwd("~/Documents/GitHub/nzpolls/graphing") # replace with own working directory
+setwd("~/GitHub/nzpolls/graphing") # replace with own working directory
 
 # Read data
-pollingData <- read.csv("local-data.csv")
-
-# Prepare data
-pollingData <- pollingData %>%
-  arrange(desc(as.Date(endDate, '%Y-%m-%d')))
+csvData <- read.csv("local-data.csv")
+pollingData <- arrange(csvData, desc(as.Date(endDate, '%Y-%m-%d')))
 
 # Plot data
 spansize <- 0.65 # higher = smoother
-primary_votes <- ggplot(pollingData, aes(x = as.Date(endDate, '%Y-%m-%d'))) +
+ggplot(pollingData, aes(x = as.Date(endDate, '%Y-%m-%d'))) +
   theme_bw() +
 
   # Labour
@@ -62,15 +60,23 @@ primary_votes <- ggplot(pollingData, aes(x = as.Date(endDate, '%Y-%m-%d'))) +
     values = c(
       # For color values see https://www.nceas.ucsb.edu/sites/default/files/2020-04/colorPaletteCheatsheet.pdf p.3
       "LAB" = "red3",
-      "NAT" = "blue4",
+      "NAT" = "blue3",
       "ACT" = "yellow3",
-      "GRN" = "green4",
+      "GRN" = "darkgreen",
       "NZF" = "gray4",
-      "MRI" = "orangered2",
-      "TOP" = "seagreen3",
-      "NCP" = "skyblue2"
+      "MRI" = "brown3",
+      "TOP" = "mediumspringgreen",
+      "NCP" = "steelblue3"
     )
+  ) +
+  theme(
+    legend.position = "bottom",
+    legend.text = element_text(size = 12)
   )
 
-# Display
-primary_votes + theme(legend.position = "bottom", legend.box = "horizontal", legend.text = element_text(size = 12))
+# Save graph
+ggsave(
+  "polling-graph.svg",
+  width = 12,
+  height = 7
+)

@@ -9,4 +9,4 @@ See [docs.md](docs.md) for documentation of the fields.
 ## Graphing
 
 This data can be used to create election polling charts.
-See the [graphing](graphing) folder for information and source code relating to using this data to generate such a chart.
+See the [graphing](graphing#readme) folder for information and source code relating to using this data to generate such a chart.
