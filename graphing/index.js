@@ -4,6 +4,7 @@
 
 const fs = require('fs');
 const yaml = require('js-yaml');
+const dateToString = date => date.toISOString().split('T')[0];
 
 // Load data
 const baseFolder = __dirname + '/';
@@ -21,13 +22,17 @@ for (const party of PARTIES) partyData[party] = [];
 
 // Parse data
 let count = 0;
+let electionDate;
 for (const poll of data[year]) {
     // Load election date
-    if (poll.date.length < 2) continue;
+    if (poll.date.length < 2) {
+        electionDate = poll.date[0] ?? new Date(`${year}-12-31`);
+        continue;
+    }
     // Add data 
     for (const key in poll) {
-        if (poll[key][0] instanceof Date) {
-            poll[key] = poll[key].map(date => date.toISOString().split('T')[0] );
+        if (poll[key]?.[0] instanceof Date) {
+            poll[key] = poll[key].map(dateToString);
         }
         partyData[key].push(poll[key]);
     }
@@ -42,7 +47,7 @@ for (const poll of data[year]) {
 let csvData = '';
 const headerData = ['startDate', 'endDate', ...Object.keys(partyData).filter(key => !['date', 'org', 'n'].includes(key))]
 csvData += headerData.join(',') + '\n';
-csvData += `${year}-12-31,${year}-12-31` + '\n';
+csvData += ',' + dateToString(electionDate) + '\n';
 for (let i = 0; i < count; i++) {
     csvData += partyData.date[i].join(',') + ',';
     const pollData = [];
