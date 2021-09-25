@@ -16,7 +16,7 @@ const year = process.argv[2] || 2023;
 if (!data[year]) throw `There is no data recorded for a ${year} election.`;
 
 // Prepare output data
-const PARTIES = ['ACT', 'GRN', 'LAB', 'MRI', 'MNA', 'NAT', 'NCP', 'NZF', 'TOP', 'UNF'];
+const PARTIES = ['ACT', 'GRN', 'INM', 'INT', 'LAB', 'MNA', 'MRI', 'NAT', 'NCP', 'NZF', 'TOP', 'UNF'];
 const partyData = { date: [], org: [], n: [] };
 for (const party of PARTIES) partyData[party] = [];
 
@@ -34,13 +34,18 @@ for (const poll of data[year]) {
         if (poll[key]?.[0] instanceof Date) {
             poll[key] = poll[key].map(dateToString);
         }
-        partyData[key].push(poll[key]);
+        partyData[key].push(poll[key] || 0);
     }
     // Pad data if party not listed in poll
     count++;
     for (const key in partyData) {
-        if (partyData[key].length !== count) partyData[key].push('');
+        if (partyData[key].length === count) continue;
+        partyData[key].push();
     }
+}
+// Fix crash when trying to plot future parties
+for (const party of PARTIES) {
+    if (partyData[party].length === 0) partyData[party] = [0];
 }
 
 // Create CSV

@@ -1,5 +1,2 @@
 # General
 * text=auto
-
-# Linguist
-*.yml linguist-language=JSON5

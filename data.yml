@@ -151,3 +151,143 @@
 - {date: [2014-11-24, 2014-12-07], org: ROY, NAT: 46, LAB: 27, GRN: 12, NZF: 7, MRI: 2, ACT: 1.5, UNF: 0, NCP: 2.5, MNA: 1}
 - {date: [2014-10-27, 2014-11-09], org: ROY, NAT: 49.5, LAB: 24, GRN: 14.5, NZF: 6.5, MRI: 1, ACT: 0.5, UNF: 0, NCP: 2, MNA: 0.5}
 - {date: [2014-09-29, 2014-10-12], org: ROY, NAT: 43.5, LAB: 22.5, GRN: 17.5, NZF: 7, MRI: 2, ACT: 0.5, UNF: 0.5, NCP: 5, MNA: 1}
+
+'2014':
+- {date: [2014-09-20], NAT: 47.04, LAB: 25.13, GRN: 10.70, NZF: 8.66, MRI: 1.32, ACT: 0.69, UNF: 0.22, NCP: 3.97, INM: 1.42}
+# Polls:
+- {date: [2014-09-13, 2014-09-17], org: IPS, NAT: 47.7, LAB: 26.1, GRN: 12.0, NZF: 6.6, MRI: 0.9, ACT: 0.3, UNF: 0.0, NCP: 4.5, INM: 0.9}
+- {date: [2014-09-13, 2014-09-17], org: COL, NAT: 45, LAB: 25, GRN: 12, NZF: 8, MRI: 1.6, ACT: 0.6, UNF: 0, NCP: 4.4, INM: 1.8}
+- {date: [2014-09-11, 2014-09-17], org: DGI, NAT: 48.2, LAB: 25.9, GRN: 11.1, NZF: 8.4, MRI: 1.1, ACT: 0.5, UNF: 0.2, NCP: 3.3, INM: 1.0}
+- {date: [2014-09-09, 2014-09-15], org: REI, NAT: 44.5, LAB: 25.6, GRN: 14.4, NZF: 7.1, MRI: 1.1, ACT: 0.1, UNF: 0.1, NCP: 4.9, INM: 2.0}
+- {date: [2014-09-01, 2014-09-14], org: ROY, NAT: 46.5, LAB: 24, GRN: 13.5, NZF: 8, MRI: 1.5, ACT: 0.5, UNF: 0.5, NCP: 3.5, INM: 1}
+- {date: [2014-09-06, 2014-09-10], org: IPS, NAT: 52.8, LAB: 22.4, GRN: 13.0, NZF: 4.4, MRI: 1.0, ACT: 0.7, UNF: 0.0, NCP: 3.6, INM: 1.4}
+- {date: [2014-09-06, 2014-09-10], org: COL, NAT: 46, LAB: 25, GRN: 14, NZF: 7, MRI: 0.8, ACT: 1.2, UNF: 0.2, NCP: 4, INM: 1.4}
+- {date: [2014-09-04, 2014-09-10], org: DGI, NAT: 48.6, LAB: 24.6, GRN: 11.5, NZF: 8.1, MRI: 0.7, ACT: 0.3, UNF: 0, NCP: 3.8, INM: 2.3}
+- {date: [2014-09-02, 2014-09-08], org: REI, NAT: 46.7, LAB: 26.1, GRN: 13.0, NZF: 5.9, MRI: 1.3, ACT: 0.3, UNF: 0.1, NCP: 4.7, INM: 1.7}
+- {date: [2014-08-30, 2014-09-03], org: COL, NAT: 50, LAB: 26, GRN: 11, NZF: 7, MRI: 0.2, ACT: 0.1, UNF: 0.1, NCP: 2.9, INM: 2.4}
+- {date: [2014-08-30, 2014-09-03], org: IPS, NAT: 54.2, LAB: 24.3, GRN: 12.9, NZF: 3.6, MRI: 0.3, ACT: 0.2, UNF: 0.1, NCP: 2.4, INM: 1.3}
+- {date: [2014-08-28, 2014-09-03], org: DGI, NAT: 50.1, LAB: 23.8, GRN: 11.4, NZF: 6, MRI: 0.4, ACT: 0.4, UNF: 0.3, NCP: 3.8, INM: 3.5}
+- {date: [2014-08-26, 2014-09-01], org: REI, NAT: 46.4, LAB: 25.9, GRN: 12.6, NZF: 5.8, MRI: 2.0, ACT: 0.6, UNF: 0.1, NCP: 4.2, INM: 1.7}
+- {date: [2014-08-18, 2014-08-31], org: ROY, NAT: 45, LAB: 26, GRN: 16, NZF: 6, MRI: 0.5, ACT: 1, UNF: 0, NCP: 3.5, INM: 1}
+- {date: [2014-08-23, 2014-08-27], org: COL, NAT: 48, LAB: 28, GRN: 12, NZF: 6, MRI: 0.6, ACT: 0.4, UNF: 0, NCP: 3.2, INM: 1.6}
+- {date: [2014-08-23, 2014-08-27], org: IPS, NAT: 50.8, LAB: 26.1, GRN: 11.8, NZF: 4.0, MRI: 0.7, ACT: 0.7, UNF: 0.1, NCP: 2.7, INM: 2.2}
+- {date: [2014-08-21, 2014-08-27], org: DGI, NAT: 50.7, LAB: 24.1, GRN: 11.4, NZF: 5, MRI: 1, ACT: 0.3, UNF: 0.2, NCP: 3.3, INM: 3.4}
+- {date: [2014-08-19, 2014-08-25], org: REI, NAT: 45.0, LAB: 26.4, GRN: 13.5, NZF: 6.3, MRI: 0.7, ACT: 0.3, UNF: 0.4, NCP: 4.6, INM: 2.1}
+- {date: [2014-08-14, 2014-08-20], org: DGI, NAT: 50, LAB: 25.2, GRN: 13.7, NZF: 4.3, MRI: 0.7, ACT: 0.6, UNF: 0.4, NCP: 2.6, INM: 2.1}
+- {date: [2014-08-04, 2014-08-17], org: ROY, NAT: 48, LAB: 27.5, GRN: 11.5, NZF: 6.5, MRI: 1, ACT: 0.5, UNF: 0.5, NCP: 1, INM: 2.5}
+- {date: [2014-08-05, 2014-08-13], org: REI, NAT: 47.5, LAB: 29.0, GRN: 13.0, NZF: 4.6, MRI: 0.8, ACT: 0.3, UNF: 0.2, NCP: 2.5, INM: 2.0}
+- {date: [2014-08-09, 2014-08-13], org: COL, NAT: 50, LAB: 26, GRN: 11, NZF: 5, MRI: 0.9, ACT: 0.6, UNF: 0, NCP: 2.4, INM: 3.9}
+- {date: [2014-08-09, 2014-08-13], org: IPS, NAT: 55.1, LAB: 22.5, GRN: 11.3, NZF: 3.4, MRI: 1.0, ACT: 0.2, UNF: 0.0, NCP: 3.4, INM: 2.1}
+- {date: [2014-07-14, 2014-07-27], org: ROY, NAT: 46, LAB: 30, GRN: 12, NZF: 5, MRI: 1.5, ACT: 0.5, UNF: 0.5, NCP: 1, INM: 2.5}
+- {date: [2014-07-19, 2014-07-23], org: COL, NAT: 52, LAB: 28, GRN: 10, NZF: 4.4, MRI: 0.6, ACT: 0.8, UNF: 0.2, NCP: 1.7, INM: 2}
+- {date: [2014-07-10, 2014-07-17], org: DGI, NAT: 54.9, LAB: 26.5, GRN: 9.9, NZF: 4.6, MRI: 0.5, ACT: 0, UNF: 0, NCP: 1.5, INM: 2.2}
+- {date: [2014-07-17, 2014-07-17], org: IPS, NAT: 54.8, LAB: 24.9, GRN: 12.4, NZF: 2.6, MRI: 0.9, ACT: 0.1, UNF: 0.2, NCP: 1.3, INM: 1.2}
+- {date: [2014-07-08, 2014-07-16], org: REI, NAT: 49.4, LAB: 26.7, GRN: 12.4, NZF: 4.3, MRI: 1.1, ACT: 0.1, UNF: 0.2, NCP: 2.7, INM: 2.3}
+- {date: [2014-06-30, 2014-07-13], org: ROY, NAT: 51, LAB: 23.5, GRN: 15, NZF: 6, MRI: 1, ACT: 0.5, UNF: 0.5, NCP: 1, INM: 1.5}
+- {date: [2014-06-16, 2014-06-29], org: ROY, NAT: 48, LAB: 28, GRN: 12, NZF: 5.5, MRI: 1.5, ACT: 1, UNF: 0, NCP: 1, INM: 2.5}
+- {date: [2014-06-21, 2014-06-25], org: COL, NAT: 50, LAB: 29, GRN: 12, NZF: 3.8, MRI: 1.2, ACT: 0.7, UNF: 0, NCP: 1, INM: 2}
+- {date: [2014-06-19, 2014-06-25], org: REI, NAT: 49.7, LAB: 27.3, GRN: 12.7, NZF: 3.6, MRI: 1.5, ACT: 0.4, UNF: 0.0, NCP: 2.8, INM: 1.8}
+- {date: [2014-06-14, 2014-06-17], org: IPS, NAT: 55.6, LAB: 23.2, GRN: 11.9, NZF: 3.2, MRI: 0.7, ACT: 0.7, UNF: 0.0, NCP: 0.9, INM: 2.1}
+- {date: [2014-06-06, 2014-06-16], org: DGI, NAT: 50.4, LAB: 30.5, GRN: 10.7, NZF: 3.6, MRI: 0.8, ACT: 0.7, UNF: 0.1, NCP: 1.5, INM: 1.4}
+- {date: [2014-06-02, 2014-06-15], org: ROY, NAT: 49.5, LAB: 28, GRN: 12, NZF: 4, MRI: 1, ACT: 0.5, UNF: 0.0, NCP: 1.5, INM: 2.5}
+- {date: [2014-05-19, 2014-06-01], org: ROY, NAT: 52.3, LAB: 29, GRN: 9, NZF: 4.5, MRI: 1.5, MNA: 0.5, ACT: 1, NCP: 1, INT: 0.5}
+- {date: [2014-05-25, 2014-05-25], org: REI, NAT: 50.3, LAB: 29.5, GRN: 10.2, NZF: 5.6, MRI: 0.6, MNA: 0.2, ACT: 0.5, UNF: 0.0, NCP: 2.3, INT: 0.6}
+- {date: [2014-05-17, 2014-05-21], org: COL, NAT: 51, LAB: 30, GRN: 11, NZF: 4.8, MRI: 1, MNA: 0, ACT: 1, UNF: 0, NCP: 1, INT: 1}
+- {date: [2014-05-05, 2014-05-18], org: ROY, NAT: 45.5, LAB: 30.5, GRN: 13.5, NZF: 6, MRI: 1, MNA: 1, ACT: 0.5, NCP: 1, INT: 0.5}
+- {date: [2014-05-10, 2014-05-12], org: IPS, NAT: 47.6, LAB: 29.5, GRN: 12.7, NZF: 3.7, MRI: 1.9, MNA: 0.5, ACT: 0.9, UNF: 0.1, NCP: 1.6}
+- {date: [2014-04-21, 2014-05-04], org: ROY, NAT: 42.5, LAB: 31, GRN: 14.5, NZF: 6, MRI: 1, MNA: 1, ACT: 0.5, UNF: 0.5, NCP: 0.5, INT: 1.5}
+- {date: [2014-03-31, 2014-04-14], org: ROY, NAT: 48.5, LAB: 28.5, GRN: 11.5, NZF: 5.5, MRI: 1, MNA: 1, ACT: 0.5, UNF: 0, NCP: 2, INT: 1}
+- {date: [2014-03-17, 2014-03-30], org: ROY, NAT: 43, LAB: 32, GRN: 13, NZF: 5.5, MRI: 1.5, MNA: 0.5, ACT: 0.5, UNF: 0.5, NCP: 2.5, INT: 0.5}
+- {date: [2014-03-30, 2014-03-30], org: REI, NAT: 45.9, LAB: 31.2, GRN: 11.2, NZF: 4.9, MRI: 1.5, MNA: 1.1, ACT: 1.1, UNF: 0.1, NCP: 1.9, INT: 0.4}
+- {date: [2014-03-22, 2014-03-26], org: COL, NAT: 47, LAB: 31, GRN: 11, NZF: 7, MRI: 0.7, MNA: 0, ACT: 0.3, UNF: 0.1, NCP: 2.3}
+- {date: [2014-03-03, 2014-03-16], org: ROY, NAT: 45.5, LAB: 31.5, GRN: 14, NZF: 3.5, MRI: 2, ACT: 0.5, UNF: 0.5, NCP: 1.5}
+- {date: [2014-03-06, 2014-03-16], org: DGI, NAT: 50.8, LAB: 29.5, GRN: 13.1, NZF: 3.6, MRI: 0.2, MNA: 0.1, ACT: 0.8, UNF: 0, NCP: 1.3}
+- {date: [2014-02-17, 2014-03-02], org: ROY, NAT: 48.5, LAB: 30.5, GRN: 10.5, NZF: 4.5, MRI: 1.5, MNA: 0.5, ACT: 1, UNF: 0.5, NCP: 2.5}
+- {date: [2014-02-15, 2014-02-19], org: COL, NAT: 51, LAB: 34, GRN: 8, NZF: 3.1, MRI: 0.9, MNA: 0.0, ACT: 0.4, UNF: 0.3, NCP: 1.3}
+- {date: [2014-02-03, 2014-02-16], org: ROY, NAT: 48, LAB: 30, GRN: 12, NZF: 5.5, MRI: 0.5, MNA: 1, ACT: 1, UNF: 0.5, NCP: 1, INT: 0.5}
+- {date: [2014-02-08, 2014-02-10], org: IPS, NAT: 49.4, LAB: 31.8, GRN: 10.0, NZF: 3.6, MRI: 1.1, MNA: 0.3, ACT: 0.5, UNF: 0.1, NCP: 2.1}
+- {date: [2014-01-20, 2014-02-02], org: ROY, NAT: 47, LAB: 33, GRN: 11, NZF: 4.5, MRI: 1.5, MNA: 1, NCP: 1.5, INT: 0.5}
+- {date: [2014-02-02, 2014-02-02], org: REI, NAT: 44.5, LAB: 33.5, GRN: 12.4, NZF: 5.7, MRI: 1.0, MNA: 0.3, ACT: 0.0, UNF: 0.0, NCP: 2.1}
+- {date: [2014-01-06, 2014-01-19], org: ROY, NAT: 43.5, LAB: 33.5, GRN: 12.5, NZF: 4, MRI: 2, MNA: 0.5, UNF: 0.5, NCP: 2.5}
+- {date: [2013-12-09, 2013-12-17], org: DGI, NAT: 46.8, LAB: 35.4, GRN: 10.8, NZF: 3.9, MRI: 1.3, MNA: 0.9, ACT: 0, UNF: 0, NCP: 0.7}
+- {date: [2013-11-25, 2013-12-08], org: ROY, NAT: 45, LAB: 30.5, GRN: 14.5, NZF: 5, MRI: 1.5, MNA: 1, NCP: 2}
+- {date: [2013-11-11, 2013-11-24], org: ROY, NAT: 44.5, LAB: 34, GRN: 11, NZF: 3.5, MRI: 1, MNA: 1, ACT: 0.5, UNF: 0.5, NCP: 2}
+- {date: [2013-10-28, 2013-11-10], org: ROY, NAT: 45.5, LAB: 32, GRN: 12.5, NZF: 5, MRI: 1, MNA: 1, UNF: 0.5, NCP: 1.5}
+- {date: [2013-11-03, 2013-11-07], org: REI, NAT: 46.3, LAB: 32.2, GRN: 10.4, NZF: 4.2, MRI: 1.2, MNA: 1.3, ACT: 0.8, UNF: 0.1, NCP: 2.8}
+- {date: [2013-10-14, 2013-10-27], org: ROY, NAT: 42, LAB: 35.5, GRN: 11, NZF: 4.5, MRI: 1.5, MNA: 0.5, ACT: 1, UNF: 0.5, NCP: 2.5}
+- {date: [2013-10-19, 2013-10-23], org: COL, NAT: 45, LAB: 34, GRN: 13, NZF: 3.9, MRI: 1.4, MNA: 0.3, ACT: 0.5, UNF: 0.1, NCP: 1.6}
+- {date: [2013-10-19, 2013-10-23], org: IPS, NAT: 50.2, LAB: 33.6, GRN: 10.7, NZF: 2.3, MRI: 0.7, MNA: 0.7, ACT: 0.1, UNF: 0.1, NCP: 0.7}
+- {date: [2013-09-30, 2013-10-13], org: ROY, NAT: 41.5, LAB: 37, GRN: 12.5, NZF: 5, MRI: 1.5, MNA: 0.5, ACT: 0.5, NCP: 0.5}
+- {date: [2013-09-16, 2013-09-29], org: ROY, NAT: 42, LAB: 37, GRN: 11.5, NZF: 4.5, MRI: 1, MNA: 0.5, ACT: 0.5, UNF: 0.5, NCP: 2}
+- {date: [2013-09-17, 2013-09-23], org: DGI, NAT: 43.7, LAB: 37.7, GRN: 11.3, NZF: 4.4, MRI: 0.8, MNA: 0.7, ACT: 0.1, UNF: 0, NCP: 1.0}
+- {date: [2013-09-14, 2013-09-18], org: COL, NAT: 47, LAB: 34, GRN: 12, NZF: 3.6, MRI: 1.3, MNA: 0, ACT: 0.2, UNF: 0.3, NCP: 0.8}
+- {date: [2013-08-26, 2013-09-08], org: ROY, NAT: 41, LAB: 32.5, GRN: 15, NZF: 6.5, MRI: 1, MNA: 0.5, ACT: 1, UNF: 0.5, NCP: 1.5}
+- {date: [2013-08-12, 2013-08-25], org: ROY, NAT: 44, LAB: 31.5, GRN: 14, NZF: 5.5, MRI: 2, MNA: 0.5, ACT: 0.5, UNF: 0.5, NCP: 1}
+- {date: [2013-08-10, 2013-08-15], org: IPS, NAT: 48.3, LAB: 31.6, GRN: 12.3, NZF: 2.8, MRI: 1.0, MNA: 0.5, ACT: 0.2, NCP: 1.4}
+- {date: [2013-07-29, 2013-08-11], org: ROY, NAT: 44, LAB: 34, GRN: 14, NZF: 3, MRI: 2, MNA: 0.5, ACT: 0.5, NCP: 1}
+- {date: [2013-07-27, 2013-07-31], org: COL, NAT: 46, LAB: 33, GRN: 14, NZF: 3.3, MRI: 1.6, MNA: 0.2, ACT: 0.7, UNF: 0.2, NCP: 0.6}
+- {date: [2013-07-15, 2013-07-28], org: ROY, NAT: 51, LAB: 29, GRN: 10, NZF: 4, MRI: 1.5, MNA: 1, ACT: 1, UNF: 0, NCP: 1.5}
+- {date: [2013-07-09, 2013-07-14], org: REI, NAT: 49.5, LAB: 31.0, GRN: 12.0, NZF: 3.9, MRI: 1.6, MNA: 0.2, ACT: 0.2, NCP: 1.1}
+- {date: [2013-07-01, 2013-07-14], org: ROY, NAT: 47, LAB: 31, GRN: 11.5, NZF: 4.5, MRI: 2, MNA: 1.5, ACT: 0.5, NCP: 1.5}
+- {date: [2013-06-17, 2013-06-30], org: ROY, NAT: 46.5, LAB: 31.5, GRN: 13, NZF: 3.5, MRI: 1.5, MNA: 0.5, UNF: 0.5, NCP: 2}
+- {date: [2013-06-12, 2013-06-23], org: DGI, NAT: 48.8, LAB: 30.9, GRN: 10.5, NZF: 5.1, MRI: 1.8, MNA: 0.5, ACT: 0.2, UNF: 0.3, NCP: 1.5}
+- {date: [2013-06-03, 2013-06-16], org: ROY, NAT: 44, LAB: 33, GRN: 11.5, NZF: 6, MRI: 2, MNA: 1, ACT: 0.5, UNF: 0, NCP: 2}
+- {date: [2013-05-13, 2013-05-26], org: ROY, NAT: 41, LAB: 35, GRN: 12, NZF: 4.5, MRI: 2, MNA: 0.5, ACT: 0.5, NCP: 2.5}
+- {date: [2013-05-19, 2013-05-23], org: IPS, NAT: 49.1, LAB: 31.9, GRN: 11.2, NZF: 3.2, MRI: 1.6, MNA: 0.1, ACT: 0.1, UNF: 0.3, NCP: 1.6}
+- {date: [2013-05-17, 2013-05-23], org: REI, NAT: 47.1, LAB: 33.1, GRN: 12.0, NZF: 2.2, MRI: 2.2, MNA: 0.5, ACT: 0.2, NCP: 1.5}
+- {date: [2013-05-18, 2013-05-22], org: COL, NAT: 49, LAB: 33, GRN: 9, NZF: 3.6, MRI: 1.3, MNA: 1.2, ACT: 0.3, UNF: 0.7, NCP: 1.7}
+- {date: [2013-04-29, 2013-05-12], org: ROY, NAT: 44, LAB: 32, GRN: 12, NZF: 5, MRI: 2, MNA: 1, ACT: 1.5, UNF: 0.5, NCP: 1.5}
+- {date: [2013-04-15, 2013-04-28], org: ROY, NAT: 46.5, LAB: 31.5, GRN: 11, NZF: 4.5, MRI: 1.5, MNA: 1, ACT: 0.5, UNF: 0.5, NCP: 2}
+- {date: [2013-04-14, 2013-04-18], org: COL, NAT: 43, LAB: 36, GRN: 13, NZF: 3.0, MRI: 1.3, MNA: 0.1, ACT: 0.1, UNF: 1.0, NCP: 1.7}
+- {date: [2013-04-13, 2013-04-18], org: REI, NAT: 49.4, LAB: 30.2, GRN: 11.5, NZF: 3.8, MRI: 1.0, MNA: 1.0, ACT: 0.5, NCP: 2.0}
+- {date: [2013-04-01, 2013-04-14], org: ROY, NAT: 40.5, LAB: 35.5, GRN: 13.5, NZF: 5, MRI: 2, MNA: 0.5, ACT: 0.5, UNF: 0.5, NCP: 1.5}
+- {date: [2013-03-11, 2013-03-24], org: ROY, NAT: 44, LAB: 34.5, GRN: 13, NZF: 3, MRI: 2.5, MNA: 0.5, ACT: 0.5, UNF: 1, NCP: 1}
+- {date: [2013-03-11, 2013-03-17], org: DGI, NAT: 48.5, LAB: 36.4, GRN: 9.0, NZF: 2.5, MRI: 1.1, MNA: 0.5, ACT: 0.1, NCP: 1.3}
+- {date: [2013-02-25, 2013-03-10], org: ROY, NAT: 43.5, LAB: 32.5, GRN: 13.5, NZF: 5, MRI: 2, MNA: 0, ACT: 0.5, UNF: 0.5, NCP: 2}
+- {date: [2013-02-11, 2013-02-24], org: ROY, NAT: 47.5, LAB: 30.5, GRN: 12.5, NZF: 3, MRI: 2.5, MNA: 0.5, ACT: 0.5, UNF: 0.5, NCP: 2}
+- {date: [2013-02-24, 2013-02-24], org: REI, NAT: 51.4, LAB: 32.6, GRN: 10.8, NZF: 3.4, MRI: 0.4, MNA: 0, ACT: 0.1, NCP: 0.9}
+- {date: [2013-02-10, 2013-02-14], org: IPS, NAT: 44.9, LAB: 36.3, GRN: 10.7, NZF: 2.8, MRI: 1.3, MNA: 1.4, ACT: 0.4, UNF: 0.1, NCP: 1.6}
+- {date: [2013-02-09, 2013-02-13], org: COL, NAT: 49, LAB: 33, GRN: 11, NZF: 3.9, MRI: 1, MNA: 0.5, ACT: 0.1, UNF: 0.2, NCP: 0.9}
+- {date: [2013-01-27, 2013-02-10], org: ROY, NAT: 44, LAB: 34.5, GRN: 13.5, NZF: 4, MRI: 0.5, MNA: 0.5, ACT: 0.5, UNF: 0, NCP: 2}
+- {date: [2013-01-14, 2013-01-27], org: ROY, NAT: 46, LAB: 31.5, GRN: 13.5, NZF: 5.5, MRI: 1.5, MNA: 0.5, ACT: 0.5, NCP: 0.5}
+- {date: [2013-01-02, 2013-01-14], org: ROY, NAT: 46, LAB: 31.5, GRN: 12, NZF: 5, MRI: 2, MNA: 0.5, ACT: 0.5, UNF: 0.5, NCP: 1.5}
+- {date: [2012-11-26, 2012-12-09], org: ROY, NAT: 45.5, LAB: 33.5, GRN: 11, NZF: 5, MRI: 1.5, MNA: 1, ACT: 1, NCP: 1}
+- {date: [2012-11-28, 2012-12-03], org: IPS, NAT: 46.2, LAB: 34.4, GRN: 10.5, NZF: 3.8, MRI: 1.3, MNA: 0.6, ACT: 0.0, UNF: 0.2, NCP: 1.4}
+- {date: [2012-12-02, 2012-12-02], org: REI, NAT: 47.0, LAB: 34.6, GRN: 12.9, NZF: 2.0, MRI: 1.2, MNA: 0.1, ACT: 0.2, NCP: 0.7}
+- {date: [2012-11-24, 2012-11-28], org: COL, NAT: 44, LAB: 35, GRN: 13, NZF: 3.6, MRI: 0.7, MNA: 0.3, ACT: 0.6, UNF: 0.5, NCP: 1.3}
+- {date: [2012-11-12, 2012-11-25], org: ROY, NAT: 45, LAB: 31.5, GRN: 13.5, NZF: 6.5, MRI: 1, ACT: 0.5, UNF: 0.5, NCP: 1.5}
+- {date: [2012-10-29, 2012-11-11], org: ROY, NAT: 45.5, LAB: 32.5, GRN: 10.5, NZF: 5, MRI: 2, MNA: 1, ACT: 0.5, UNF: 0.5, NCP: 1.5}
+- {date: [2012-10-27, 2012-10-31], org: COL, NAT: 45, LAB: 32, GRN: 12, NZF: 4.9, MRI: 2.2, MNA: 1, ACT: 0.6, UNF: 0.2, NCP: 1}
+- {date: [2012-10-08, 2012-10-24], org: ROY, NAT: 43.5, LAB: 29, GRN: 13, NZF: 7.5, MRI: 3.5, MNA: 0.5, ACT: 0.5, NCP: 2}
+- {date: [2012-10-14, 2012-10-14], org: REI, NAT: 48.8, LAB: 33.0, GRN: 10.6, NZF: 3.2, MRI: 1.5, MNA: 0.1, ACT: 0.1, NCP: 2.0}
+- {date: [2012-09-24, 2012-10-07], org: ROY, NAT: 41.5, LAB: 33.5, GRN: 13.5, NZF: 6.5, MRI: 1.5, ACT: 0.5, UNF: 0.5, NCP: 2}
+- {date: [2012-09-10, 2012-09-23], org: ROY, NAT: 43.5, LAB: 33, GRN: 11.5, NZF: 5, MRI: 2.5, MNA: 1.5, ACT: 0.5, NCP: 2}
+- {date: [2012-09-15, 2012-09-19], org: COL, NAT: 45, LAB: 34, GRN: 12, NZF: 1.8, MRI: 2.9, MNA: 0.6, ACT: 0.9, UNF: 0.1, NCP: 2}
+- {date: [2012-08-27, 2012-09-09], org: ROY, NAT: 46.5, LAB: 31, GRN: 12.5, NZF: 4.5, MRI: 2.5, MNA: 1, ACT: 0.5, NCP: 1}
+- {date: [2012-08-20, 2012-08-31], org: DGI, NAT: 47.9, LAB: 32.0, GRN: 10.7, NZF: 5.5, MRI: 1.5, MNA: 0.3, ACT: 0.2, UNF: 0.3, NCP: 1.4}
+- {date: [2012-08-13, 2012-08-26], org: ROY, NAT: 44.5, LAB: 32, GRN: 14.5, NZF: 5, MRI: 2.5, ACT: 1, NCP: 0.5}
+- {date: [2012-07-23, 2012-08-05], org: ROY, NAT: 44, LAB: 32, GRN: 14, NZF: 4, MRI: 2, MNA: 1, ACT: 0.5, UNF: 0.5, NCP: 1.5}
+- {date: [2012-08-05, 2012-08-05], org: REI, NAT: 50.6, LAB: 30.8, GRN: 11.2, NZF: 3.0, MRI: 1.6, MNA: 0.2, ACT: 0.1, NCP: 1.7}
+- {date: [2012-07-28, 2012-08-01], org: COL, NAT: 48, LAB: 32, GRN: 12, NZF: 2.5, MRI: 2.3, MNA: 0.4, ACT: 0.5, UNF: 0.1, NCP: 0.9}
+- {date: [2012-07-19, 2012-07-23], org: IPS, NAT: 44.9, LAB: 32.6, GRN: 11.9, NZF: 3.6, MRI: 2.7, MNA: 1.2, ACT: 0.6, UNF: 0.1, NCP: 0.7}
+- {date: [2012-07-09, 2012-07-22], org: ROY, NAT: 47.5, LAB: 30, GRN: 11, NZF: 5.5, MRI: 1, MNA: 0.5, ACT: 1, UNF: 0.5, NCP: 3}
+- {date: [2012-06-25, 2012-07-08], org: ROY, NAT: 45.5, LAB: 32.5, GRN: 13, NZF: 4.5, MRI: 1, MNA: 0.5, ACT: 0.5, UNF: 0.5}
+- {date: [2012-06-18, 2012-06-25], org: DGI, NAT: 47.5, LAB: 34.0, GRN: 9.1, NZF: 4.4, MRI: 1.3, MNA: 1.7, ACT: 0.5, UNF: 0.5, NCP: 0.5}
+- {date: [2012-06-08, 2012-06-24], org: ROY, NAT: 47.5, LAB: 32, GRN: 12, NZF: 4, MRI: 1.5, MNA: 0.5, ACT: 0.5, UNF: 0.5}
+- {date: [2012-06-10, 2012-06-10], org: REI, NAT: 45.8, LAB: 33.2, GRN: 14.4, NZF: 2.8, MRI: 1.4, MNA: 0.3, ACT: 0.5, NCP: 1.1}
+- {date: [2012-05-28, 2012-06-07], org: ROY, NAT: 46, LAB: 31, GRN: 12.5, NZF: 5.5, MRI: 1.5, MNA: 1, UNF: 0.5}
+- {date: [2012-06-26, 2012-06-30], org: COL, NAT: 47, LAB: 33, GRN: 13, NZF: 2.2, MRI: 1.3, MNA: 1, ACT: 0.7, UNF: 0, NCP: 1.4}
+- {date: [2012-05-14, 2012-05-27], org: ROY, NAT: 44, LAB: 30.5, GRN: 13.5, NZF: 5, MRI: 2, MNA: 1, ACT: 1, UNF: 0.5}
+- {date: [2012-04-30, 2012-05-13], org: ROY, NAT: 44.5, LAB: 30, GRN: 15, NZF: 5.5, MRI: 1, MNA: 0.5, UNF: 1}
+- {date: [2012-04-16, 2012-04-29], org: ROY, NAT: 47, LAB: 28.5, GRN: 15, NZF: 5, MRI: 1.5, MNA: 0.5, ACT: 0.5, UNF: 0.5}
+- {date: [2012-04-19, 2012-04-29], org: DGI, NAT: 48.1, LAB: 34.8, GRN: 9.2, NZF: 4.9, MRI: 1.7, MNA: 0.1, ACT: 0.0, UNF: 0.7, NCP: 0.1}
+- {date: [2012-04-22, 2012-04-22], org: REI, NAT: 49.8, LAB: 29.4, GRN: 14.1, NZF: 2.3, MRI: 1.6, MNA: 0.9, ACT: 0.2, NCP: 1.1}
+- {date: [2012-04-02, 2012-04-15], org: ROY, NAT: 49.5, LAB: 26.5, GRN: 12.5, NZF: 6.5, MRI: 1.5, MNA: 1, UNF: 1}
+- {date: [2012-03-12, 2012-04-01], org: ROY, NAT: 44, LAB: 30.5, GRN: 17, NZF: 5, MRI: 1.5, MNA: 0.5, ACT: 0.5, UNF: 0.5}
+- {date: [2012-03-24, 2012-03-28], org: COL, NAT: 51, LAB: 29, GRN: 11, NZF: 3.1, MRI: 0.9, MNA: 1, ACT: 0.5, UNF: 0.2, NCP: 1.4}
+- {date: [2012-02-27, 2012-03-11], org: ROY, NAT: 48.5, LAB: 30, GRN: 12.5, NZF: 5, MRI: 1, MNA: 0.5, ACT: 0.5, UNF: 0.5}
+- {date: [2012-02-13, 2012-02-26], org: ROY, NAT: 45.5, LAB: 31.5, GRN: 13, NZF: 5, MRI: 1.5, MNA: 1, ACT: 0.5, UNF: 0.5}
+- {date: [2012-02-19, 2012-02-19], org: REI, NAT: 46.5, LAB: 29.4, GRN: 13.3, NZF: 5.0, MRI: 1.3, MNA: 1.3, ACT: 0.2, NCP: 1.4}
+- {date: [2012-01-30, 2012-02-12], org: ROY, NAT: 45.5, LAB: 31, GRN: 11.5, NZF: 6, MRI: 1.5, MNA: 1, ACT: 1, UNF: 0.5}
+- {date: [2012-01-16, 2012-01-29], org: ROY, NAT: 46, LAB: 30.5, GRN: 13, NZF: 5.5, MRI: 2, MNA: 0.5, ACT: 0.5, UNF: 0.5}
+- {date: [2012-01-03, 2012-01-15], org: ROY, NAT: 47, LAB: 27.5, GRN: 14.5, NZF: 5, MRI: 1.5, MNA: 1, ACT: 0.5, UNF: 0.5}

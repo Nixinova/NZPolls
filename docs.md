@@ -12,6 +12,8 @@ Each election has its own root-level array sorted in reverse chronological order
 - ACT: ACT
 - GRN: Green
 - LAB: Labour
+- INT: Internet Party
+- INM: Internet&ndash;Mana
 - MRI: Maori
 - MNA: Mana
 - NAT: National
@@ -25,6 +27,7 @@ Each election has its own root-level array sorted in reverse chronological order
 - COL: Colman Brunton (1 News)
 - DGI: DigiPoll (NZ Herald)
 - DYN: Dynata (Newsroom)
+- IPS: Ipsos (Fairfax Media)
 - REI: Reid Research (Newshub)
 - ROY: Roy Morgan
 - YGV: YouGov (Stuff)
