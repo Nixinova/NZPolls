@@ -2,6 +2,7 @@
 
 library(ggplot2)
 library(dplyr)
+library(svglite)
 
 setwd("~/GitHub/nzpolls/graphing") # replace with own working directory
 
@@ -45,6 +46,7 @@ ggplot(pollingData, aes(x = as.Date(endDate, '%Y-%m-%d'))) +
   scale_x_date(date_breaks = "4 months", date_labels = "%b '%y", minor_breaks = "1 month") +
   # Axis styling
   theme(
+    plot.background = element_rect(fill = "white", color = NA),
     axis.text.x = element_text(angle = 0, vjust = 0.5, size = 10),
     axis.text.y = element_text(size = 12),
     axis.title.y = element_text(size = 12)
@@ -55,18 +57,26 @@ ggplot(pollingData, aes(x = as.Date(endDate, '%Y-%m-%d'))) +
   scale_color_manual(
     name = "",
     # Legend
-    labels = c("Labour", "National", "ACT", "Greens", "NZ First", "Maori", "TOP", "New Conservative"),
+    labels = c(
+      "LAB" = "Labour",
+      "NAT" = "National",
+      "ACT",
+      "GRN" = "Greens",
+      "NZF" = "NZ First",
+      "MRI" = "Maori",
+      "TOP" = "Opportunities",
+      "NCP" = "New Conservative"
+    ),
     # Color mapping
     values = c(
-      # For color values see https://www.nceas.ucsb.edu/sites/default/files/2020-04/colorPaletteCheatsheet.pdf p.3
-      "LAB" = "red3",
-      "NAT" = "blue3",
-      "ACT" = "yellow3",
-      "GRN" = "darkgreen",
-      "NZF" = "gray4",
-      "MRI" = "brown3",
-      "TOP" = "mediumspringgreen",
-      "NCP" = "steelblue3"
+      "LAB" = "#D82A20",
+      "NAT" = "#004278",
+      "ACT" = "#FDE401",
+      "GRN" = "#098137",
+      "NZF" = "#000000",
+      "MRI" = "#B2001A",
+      "TOP" = "#32DAC3",
+      "NCP" = "#00AEEF"
     )
   ) +
   theme(
