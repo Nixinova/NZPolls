@@ -2,7 +2,6 @@
 
 library(ggplot2)
 library(dplyr)
-library(svglite)
 
 setwd("~/GitHub/nzpolls/graphing") # replace with own working directory
 
@@ -83,10 +82,3 @@ ggplot(pollingData, aes(x = as.Date(endDate, '%Y-%m-%d'))) +
     legend.position = "bottom",
     legend.text = element_text(size = 12)
   )
-
-# Save graph
-ggsave(
-  "polling-graph.svg",
-  width = 12,
-  height = 7
-)
