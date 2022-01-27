@@ -24,7 +24,7 @@ Each election has its own root-level array sorted in reverse chronological order
 
 ## Pollster IDs
 - BAU: Bauer Media
-- COL: Colman Brunton (1 News)
+- COL: Kantar Public (1 News)
 - DGI: DigiPoll (NZ Herald)
 - DYN: Dynata (Newsroom)
 - IPS: Ipsos (Fairfax Media)
