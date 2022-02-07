@@ -7,4 +7,4 @@ package-lock.json
 
 # Output
 *local*
-polling-graph.svg
+*.svg
