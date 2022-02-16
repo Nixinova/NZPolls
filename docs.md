@@ -11,23 +11,25 @@ Each election has its own root-level array sorted in reverse chronological order
 
 - ACT: ACT
 - GRN: Green
-- LAB: Labour
+- INM: Internet/Mana
 - INT: Internet Party
-- INM: Internet&ndash;Mana
-- MRI: Maori
+- LAB: Labour
 - MNA: Mana
+- MRI: Maori
 - NAT: National
 - NCP: New Conservative
 - NZF: NZ First
 - TOP: Opportunities
 - UNF: United Future
 
-## Pollster IDs
+## Pollsters
 - BAU: Bauer Media
-- COL: Kantar Public (1 News)
+- COL: Kantar Public / Colmar Brunton (1 News)
+- CUR: Curia (Taxpayers Union)
 - DGI: DigiPoll (NZ Herald)
 - DYN: Dynata (Newsroom)
 - IPS: Ipsos (Fairfax Media)
 - REI: Reid Research (Newshub)
 - ROY: Roy Morgan
+- TBM: Talbot Mills / UMB
 - YGV: YouGov (Stuff)

@@ -3,19 +3,30 @@
 '2023':
 - {date: [null]}
 # Polls:
+- {date: [2022-02-01, 2022-02-10], org: CUR, n: 1000, ACT: 6.6, GRN: 6.3, LAB: 42.3, MRI: 1.0, NAT: 38.4, NZF: 1.5, TOP: 2.0}
 - {date: [2022-01-22, 2022-02-04], org: REI, n: 1000, ACT: 8.0, GRN: 9.6, LAB: 44.3, MRI: 2.0, NAT: 31.3, NCP: 1.1, NZF: 1.8, TOP: 1.5}
 - {date: [2022-01-04, 2022-01-30], org: ROY, n: 951, ACT: 13.5, GRN: 10.5, LAB: 33, MRI: 2.5, NAT: 35, NCP: 1.0, NZF: 2.5, TOP: 1.5}
 - {date: [2022-01-22, 2022-01-26], org: COL, n: 1000, ACT: 11, GRN: 9, LAB: 40, MRI: 2, NAT: 32, NCP: 1, NZF: 2, TOP: 2}
+- {date: [2022-01-10, 2022-01-17], org: CUR, n: 1000, ACT: 11.5, GRN: 10.7, LAB: 41.2, MRI: 0.5, NAT: 33.0, NZF: 0.9, TOP: 1.1}
 - {date: [2021-11-22, 2021-12-19], org: ROY, n: 951, ACT: 18.5, GRN: 8.5, LAB: 35.5, MRI: 1, NAT: 31.5, NCP: 0.5, NZF: 2, TOP: 1}
+- {date: [2021-12-01, 2021-12-08], org: CUR, n: 1000, ACT: 10.6, GRN: 10.9, LAB: 39.5, MRI: 3.0, NAT: 32.6, NZF: 2.3}
 - {date: [2021-10-25, 2021-11-29], org: ROY, n: 951, ACT: 17.5, GRN: 10.5, LAB: 36, MRI: 3, NAT: 26.5, NCP: 1, NZF: 2.5, TOP: 1.5}
 - {date: [2021-11-10, 2021-11-17], org: REI, n: 1000, ACT: 16, GRN: 7.2, LAB: 42.7, MRI: 2.1, NAT: 26.9, NCP: 0.9, NZF: 2.5, TOP: 1.2}
 - {date: [2021-11-06, 2021-11-10], org: COL, n: 1001, ACT: 14, GRN: 9, LAB: 41, MRI: 0.9, NAT: 28, NCP: 1.0, NZF: 3.3, TOP: 1.2}
+- {date: [2021-11-01, 2021-11-08], org: CUR, n: 1000, ACT: 15.9, GRN: 8.6, LAB: 39.3, MRI: 2.3, NAT: 26.2, NZF: 1.7}
+- {date: [2021-10-29, 2021-11-03], org: TBM, n: 1023, ACT: 17, GRN: 9, LAB: 41, MRI: 2.4, NAT: 24, NZF: 4.2}
 - {date: [2021-09-27, 2021-10-24], org: ROY, n: 929, ACT: 16, GRN: 10.5, LAB: 39.5, MRI: 2, NAT: 26, NCP: 1.5, NZF: 2.5, TOP: 1}
+- {date: [2021-10-03, 2021-10-11], org: CUR, n: 1000, ACT: 16.6, GRN: 6.4, LAB: 44.8, MRI: 1.5, NAT: 22.5, NZF: 3.6}
+- {date: [2021-09-28, 2021-10-05], org: TBM, n: 1200, ACT: 16, GRN: 7, LAB: 46, MRI: 1.9, NAT: 22, NZF: 3.8}
 - {date: [2021-08-30, 2021-09-26], org: ROY, n: 940, ACT: 16, GRN: 9.5, LAB: 45.5, MRI: 2, NAT: 23, NZF: 1.5, TOP: 1.5}
 - {date: [2021-09-22, 2021-09-26], org: COL, n: 1001, ACT: 14, GRN: 8, LAB: 43, MRI: 2.1, NAT: 26, NCP: 1.3, NZF: 2.5, TOP: 1.2}
+- {date: [2021-09-05, 2021-09-09], org: CUR, n: 1000, ACT: 14.9, GRN: 9.6, LAB: 45.8, MRI: 1.2, NAT: 21.3, NZF: 2.7}
+- {date: [2021-08-31, 2021-09-06], org: TBM, n: 1050, ACT: 13, GRN: 6, LAB: 45, MRI: 2, NAT: 26, NZF: 4.1}
 - {date: [2021-07-26, 2021-08-22], org: ROY, n: 940, ACT: 13, GRN: 12, LAB: 39.5, MRI: 2.5, NAT: 25, NZF: 2.5, TOP: 2}
+- {date: [2021-07-21, 2021-08-01], org: TBM, n: 1216, ACT: 13, GRN: 7, LAB: 43, MRI: 1.7, NAT: 28, NZF: 4.4}
 - {date: [2021-07-22, 2021-07-29], org: REI, n: 1000, ACT: 11.1, GRN: 8.5, LAB: 43.0, MRI: 1.9, NAT: 28.7, NCP: 1.6, NZF: 3.4, TOP: 0.8}
 - {date: [2021-06-28, 2021-07-25], org: ROY, n: 945, ACT: 13, GRN: 10, LAB: 39.5, MRI: 2.5, NAT: 29, NZF: 2, TOP: 3}
+- {date: [2021-06-24, 2021-07-01], org: TBM, n: 1199, ACT: 11, GRN: 8, LAB: 48, MRI: 1.5, NAT: 24, NZF: 5}
 - {date: [2021-05-31, 2021-06-27], org: ROY, n: 927, ACT: 11.5, GRN: 12.5, LAB: 38.5, MRI: 2.5, NAT: 29.5, NZF: 1.5, TOP: 2}
 - {date: [2021-05-22, 2021-05-26], org: COL, n: 1002, ACT: 9, GRN: 8, LAB: 46, MRI: 1.8, NAT: 29, NCP: 1.5, NZF: 1.2, TOP: 1.8}
 - {date: [2021-04-26, 2021-05-23], org: ROY, n: 932, ACT: 9, GRN: 11, LAB: 45, MRI: 1.5, NAT: 28.5, NZF: 2, TOP: 1.5}
