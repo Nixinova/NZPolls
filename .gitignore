@@ -4,6 +4,7 @@ package-lock.json
 
 # R
 *.Rhistory
+*.RData
 
 # Output
 *local*
