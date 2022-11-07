@@ -34,3 +34,6 @@ Each election has its own root-level array sorted in reverse chronological order
 - ROY: Roy Morgan
 - TBM: Talbot Mills / UMB
 - YGV: YouGov (Stuff)
+
+## Dates
+If the period of a poll is unknown, the day part of at least one of the dates will be set to 0.
