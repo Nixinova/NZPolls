@@ -46,7 +46,7 @@ for (const poll of data[year]) {
     for (const key in partyData) {
         if (partyData[key].length === count)
             continue;
-        partyData[key].push();
+        partyData[key].push(NaN);
     }
 }
 // Fix crash when trying to plot future parties
