@@ -57,7 +57,7 @@ for (const party of PARTIES) {
 
 // Collate parties into blocs
 const BLOCS = {
-    'left': ['LAB', 'GRN'],
+    'left': ['LAB', 'GRN', 'MRI'],
     'right': ['NAT', 'ACT'],
 };
 BLOCS['other'] = PARTIES.filter(party => !BLOCS['left'].includes(party) && !BLOCS['right'].includes(party));

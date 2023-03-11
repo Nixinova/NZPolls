@@ -42,7 +42,7 @@ scale_color_manual(
     name = "",
 # Legend
     labels = c(
-      "Left" = "LAB+GRN",
+      "Left" = "LAB+GRN+MRI",
       "Right" = "NAT+ACT"
     ),
 # Color mapping
