@@ -62,7 +62,7 @@ ggplot(pollingData, aes(x = as.Date(endDate, '%Y-%m-%d'))) +
       "ACT",
       "GRN" = "Greens",
       "NZF" = "NZ First",
-      "MRI" = "Māori",
+      "MRI" = "Maori",
       "TOP" = "Opportunities",
       "NCP" = "New Conservative"
     ),
