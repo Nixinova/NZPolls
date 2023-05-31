@@ -57,11 +57,11 @@ for (const party of PARTIES) {
 
 // Collate parties into blocs
 const BLOCS = {
-    'left': ['LAB', 'GRN', 'MRI'],
-    'right': ['NAT', 'ACT'],
+    'leftBloc': ['LAB', 'GRN', 'MRI'],
+    'rightBloc': ['NAT', 'ACT'],
 };
-BLOCS['other'] = PARTIES.filter(party => !BLOCS['left'].includes(party) && !BLOCS['right'].includes(party));
-for (const bloc of ['left', 'right', 'other']) {
+BLOCS['otherBloc'] = PARTIES.filter(party => !BLOCS['leftBloc'].includes(party) && !BLOCS['rightBloc'].includes(party));
+for (const bloc of ['leftBloc', 'rightBloc', 'otherBloc']) {
     partyData[bloc] = new Array(partyData.date.length).fill();
     for (let i in partyData[bloc]) {
         for (const party of BLOCS[bloc]) {
@@ -75,11 +75,13 @@ for (const bloc of ['left', 'right', 'other']) {
 
 // Create CSV
 let csvData = '';
-const headerData = ['startDate', 'endDate', ...Object.keys(partyData).filter(key => !['date', 'org', 'n'].includes(key))]
+const headerData = ['startDate', 'endDate', 'org', 'sampleSize', ...Object.keys(partyData).filter(key => !['date','org','n'].includes(key))]
 csvData += headerData.join(',') + '\n';
 csvData += ',' + dateToString(electionDate) + '\n';
 for (let i = 0; i < count; i++) {
     csvData += partyData.date[i].join(',') + ',';
+    csvData += partyData.org[i] + ',';
+    csvData += partyData.n[i] + ',';
     const pollData = [];
     for (const party of PARTIES)
         pollData.push(partyData[party][i]);

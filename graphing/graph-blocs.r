@@ -15,14 +15,14 @@ ggplot(pollingData, aes(x = as.Date(endDate, '%Y-%m-%d'))) +
   theme_bw() +
 
 # Left
-geom_point(aes(y = left, colour = "Left"), size = 2, alpha = 0.3) +
-  geom_smooth(aes(y = left, colour = "Left"), span = spansize, se = FALSE) +
+geom_point(aes(y = leftBloc, colour = "Left"), size = 2, alpha = 0.3) +
+  geom_smooth(aes(y = leftBloc, colour = "Left"), span = spansize, se = FALSE) +
 # Right
-geom_point(aes(y = right, colour = "Right"), size = 2, alpha = 0.3) +
-  geom_smooth(aes(y = right, colour = "Right"), span = spansize, se = FALSE) +
+geom_point(aes(y = rightBloc, colour = "Right"), size = 2, alpha = 0.3) +
+  geom_smooth(aes(y = rightBloc, colour = "Right"), span = spansize, se = FALSE) +
 # Other
-geom_point(aes(y = other, colour = "Other"), size = 2, alpha = 0.3) +
-  geom_smooth(aes(y = other, colour = "Other"), span = spansize, se = FALSE) +
+geom_point(aes(y = otherBloc, colour = "Other"), size = 2, alpha = 0.3) +
+  geom_smooth(aes(y = otherBloc, colour = "Other"), span = spansize, se = FALSE) +
 
 # Y-axis
 scale_y_continuous(limits = c(0, 70), breaks = c(0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70), minor_breaks = waiver(), expand = c(0, 0)) +
