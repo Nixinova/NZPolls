@@ -1,1 +1,1 @@
-node . 2023
+npm i && node . 2023
