@@ -19,5 +19,5 @@ The graphing script is written in the R programming language.
 2. Open Tools and click "Install Packages"
 3. Install the ggplot2 package
 4. Open `graphing.r` in RStudio and adjust the working directory to `[...]/nzpolls/graphing`.
-5. Select all the code in polling-graph.r and press the Run button.
+5. Select all the code in the file and press the "Run" button.
 6. Export the generated charts as SVG by opening the "Export" option in the plotting window and selecting "Save as image".
