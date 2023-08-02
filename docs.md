@@ -33,6 +33,7 @@ Each election has its own root-level array sorted in reverse chronological order
 - REI: Reid Research (Newshub)
 - ROY: Roy Morgan
 - TBM: Talbot Mills / UMB
+- VER: Verison (1 News)
 - YGV: YouGov (Stuff)
 
 ## Dates
