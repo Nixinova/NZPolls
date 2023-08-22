@@ -24,7 +24,7 @@ Each election has its own root-level array sorted in reverse chronological order
 
 ## Pollsters
 - BAU: Bauer Media
-- COL: Kantar Public / Colmar Brunton (1 News)
+- COL: Colmar Brunton / Kantar Public / Verian (1 News)
 - CUR: Curia (Taxpayers Union)
 - DGI: DigiPoll (NZ Herald)
 - DYN: Dynata (Newsroom)
@@ -33,7 +33,6 @@ Each election has its own root-level array sorted in reverse chronological order
 - REI: Reid Research (Newshub)
 - ROY: Roy Morgan
 - TBM: Talbot Mills / UMB
-- VER: Verison (1 News)
 - YGV: YouGov (Stuff)
 
 ## Dates
