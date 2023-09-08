@@ -28,6 +28,8 @@ Each election has its own root-level array sorted in reverse chronological order
 - CUR: Curia (Taxpayers Union)
 - DGI: DigiPoll (NZ Herald)
 - DYN: Dynata (Newsroom)
+- ESS: Essential
+- FWS: Freshwater Strategy (The Post)
 - HOR: Horizon Research
 - IPS: Ipsos (Fairfax Media)
 - REI: Reid Research (Newshub)

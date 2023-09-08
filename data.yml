@@ -3,6 +3,15 @@
 '2023':
 - {date: [null]}
 # Polls:
+- {date: [2023-08-31, 2023-09-06, org: CUR, n: 1000, LAB: 26.5, NAT: 35.0, GRN: 12.7, ACT: 14.3, MRI: 2.9, NZF: 3.9, TOP: 2.7, NCP: 0.8 }
+- {date: [2023-08-00, 2023-09-00], org: ROY, n: 1046, LAB: 24, NAT: 31, GRN: 12.5, ACT: 18, MRI: 4, NZF: 5.5, TOP: 2 }
+- {date: [2023-08-28, 2023-08-30], org: FWS, n: 1511, LAB: 26, NAT: 36, GRN: 12, ACT: 11, MRI: 3, NZF: 6 }
+- {date: [2023-08-24, 2023-08-30], org: TBM, n: ~, LAB: 30, NAT: 36, GRN: 12,ACT: 10, MRI: 2.4, NZF: 5.4, TOP: 1.5 }
+- {date: [2023-08-25, 2023-08-25], org: TBM, n: ~, LAB: 32, NAT: 34, GRN: 11, ACT: 10, MRI: 4, NZF: 6 }
+- {date: [2023-08-12, 2023-08-16], org: COL, n: 1002, LAB: 29, NAT: 37, GRN: 12, ACT: 13, MRI: 2.6, NZF: 3.7, TOP: 0.6, NCP: 0.3 }
+- {date: [2023-08-03, 2023-08-08], org: CUR, n: 1000, LAB: 27.1, NAT: 34.9, GRN: 12, ACT: 13, MRI: 2.5, NZF: 5.8, TOP: 1, NCP: 0.6 }
+- {date: [2023-07-31, 2023-08-07], org: TBM, n: 1012, LAB: 32, NAT: 35, GRN: 10, ACT: 11, MRI: 3.1, NZF: 4.4, TOP: 1.8 }
+- {date: [2023-08-02, 2023-08-06], org: ESS, n: 1163, LAB: 29, NAT: 34.5, GRN: 8.5, ACT: 11.6, MRI: 2.5, NZF: 5.3 }
 - {date: [2023-07-00, 2023-08-00], org: ROY, n: 937, ACT: 14, GRN: 9, LAB: 26, MRI: 6, NAT: 33.5, NZF: 5, TOP: 4 }
 - {date: [2023-07-26, 2023-07-31], org: REI, n: ~, ACT: 12.1, GRN: 9.6, LAB: 32.3, MRI: 2.7, NAT: 36.6, NCP: 0.7, NZF: 4.1, TOP: 1.5 }
 - {date: [2023-07-08, 2023-07-13], org: COL, n: 1000, ACT: 12, GRN: 10, LAB: 33, MRI: 2.8, NAT: 35, NCP: 0.4, NZF: 3.1, TOP: 1.7 }
