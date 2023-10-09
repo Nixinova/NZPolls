@@ -30,6 +30,7 @@ Each election has its own root-level array sorted in reverse chronological order
 - DYN: Dynata (Newsroom)
 - ESS: Essential
 - FWS: Freshwater Strategy (The Post)
+- GUA: Guardian Essential
 - HOR: Horizon Research
 - IPS: Ipsos (Fairfax Media)
 - REI: Reid Research (Newshub)
