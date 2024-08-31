@@ -6,12 +6,17 @@ function parseOrg(org) {
     else return org;
 }
 
+function parseParty(label) {
+    if (label === 'TPM') return 'MRI';
+    return label;
+}
+
 function parseData(label, value) {
     if (/date/i.test(label)) return ['date', `[${value}]`];
     if (/org/i.test(label)) return ['org', parseOrg(value)];
     if (/size/i.test(label)) return ['n', value.replace(/[^\d.-]/g, '')];
     if (/lead/i.test(label)) return [,];
-    else return [label, value.replace(/\W/g, '')];
+    else return [parseParty(label), value.replace(/\W/g, '')];
 }
 
 async function scrape() {
