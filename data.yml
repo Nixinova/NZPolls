@@ -1,5 +1,35 @@
 # New Zealand Election Polling Data
 
+'2026':
+- {date: [null]}
+# Polls:
+- {date: [2024-08-10, 2024-08-14], org: COL, n: 1001, NAT: 38, LAB: 30, GRN: 11, ACT: 7, NZF: 6, TPM: 4.2, TOP: 1.1}
+- {date: [2024-06-24, 2024-07-21], org: ROY, n: 930, NAT: 32.5, LAB: 24, GRN: 14, ACT: 11, NZF: 6.5, TPM: 6, TOP: 4.5}
+- {date: [2024-07-04, 2024-07-08], org: CUR, n: 1000, NAT: 37.6, LAB: 25.9, GRN: 12.5, ACT: 9.1, NZF: 7.3, TPM: 3.5, TOP: 2.4}
+- {date: [2024-05-27, 2024-06-23], org: ROY, n: 930, NAT: 35, LAB: 27.5, GRN: 14.5, ACT: 9, NZF: 5.5, TPM: 3.5, TOP: 25}
+- {date: [2024-06-15, 2024-06-19], org: COL, n: 1002, NAT: 38, LAB: 29, GRN: 13, ACT: 7, NZF: 6, TPM: 3.3, TOP: 1.5}
+- {date: [2024-06-04, 2024-06-06], org: CUR, n: 1000, NAT: 35.4, LAB: 29.4, GRN: 12.7, ACT: 9.7, NZF: 5.6, TPM: 4.0, TOP: 0.8}
+- {date: [2024-04-22, 2024-05-19], org: ROY, n: 925, NAT: 33.5, LAB: 30, GRN: 14, ACT: 9.5, NZF: 5.5, TPM: 3, TOP: 3}
+- {date: [2024-05-01, 2024-05-10], org: TBM, n: ~, NAT: 35, LAB: 32, GRN: ~, ACT: ~, NZF: ~, TPM: ~, TOP: ~}
+- {date: [2024-05-05, 2024-05-07], org: CUR, n: 1000, NAT: 37.3, LAB: 30, GRN: 10.2, ACT: 9.4, NZF: 5.5, TPM: 3.1, TOP: 14}
+- {date: [2024-04-30, 2024-04-30], org: TBM, n: ~, NAT: 34, LAB: 33, GRN: 12, ACT: 7, NZF: 6, TPM: 4, TOP: ~}
+- {date: [2024-04-20, 2024-04-24], org: COL, n: 1000, NAT: 36, LAB: 30, GRN: 14, ACT: 7, NZF: 4.2, TPM: 3.7, TOP: 1.2}
+- {date: [2024-03-25, 2024-04-21], org: ROY, n: 934, NAT: 36.5, LAB: 24.5, GRN: 13, ACT: 11, NZF: 5.5, TPM: 5.5, TOP: 2}
+- {date: [2024-04-02, 2024-04-04], org: CUR, n: 1000, NAT: 37.1, LAB: 25.7, GRN: 14.6, ACT: 7.2, NZF: 6.3, TPM: 4.6, TOP: 16}
+- {date: [2024-02-26, 2024-03-24], org: ROY, n: 931, NAT: 38, LAB: 23, GRN: 13.5, ACT: 11.5, NZF: 6.5, TPM: 3.5, TOP: 2.5}
+- {date: [2024-03-01, 2024-03-10], org: TBM, n: 1000, NAT: 38, LAB: 28, GRN: 14, ACT: 8, NZF: 6, TPM: ~, TOP: ~}
+- {date: [2024-03-03, 2024-03-05], org: CUR, n: 1000, NAT: 37.4, LAB: 25.3, GRN: 11.3, ACT: 10, NZF: 7.4, TPM: 2.5, TOP: 21}
+- {date: [2024-01-29, 2024-02-25], org: ROY, n: 935, NAT: 35.5, LAB: 21.5, GRN: 15.5, ACT: 12, NZF: 7.5, TPM: 4, TOP: 2.5}
+- {date: [2024-02-10, 2024-02-14], org: COL, n: 1002, NAT: 38, LAB: 28, GRN: 12, ACT: 8, NZF: 6, TPM: 3.7, TOP: 1.9}
+- {date: [2024-02-01, 2024-02-10], org: TBM, n: ~, NAT: 38, LAB: 29, GRN: 12, ACT: 7, NZF: 62, TPM: 4.9, TOP: 1.4}
+- {date: [2024-02-01, 2024-02-07], org: CUR, n: 1000, NAT: 39.6, LAB: 27.9, GRN: 9, ACT: 13.7, NZF: 5, TPM: 2.3, TOP: ~}
+- {date: [2024-01-08, 2024-01-28], org: ROY, n: 947, NAT: 38, LAB: 22, GRN: 15.5, ACT: 7.5, NZF: 6, TPM: 4.5, TOP: 45}
+- {date: [2024-01-08, 2024-01-10], org: CUR, n: 1000, NAT: 41, LAB: 28.4, GRN: 9.5, ACT: 7.8, NZF: 5.6, TPM: 3.6, TOP: ~}
+- {date: [2023-11-27, 2023-12-17], org: ROY, n: 947, NAT: 36, LAB: 22, GRN: 15.5, ACT: 9.5, NZF: 6, TPM: 5, TOP: 4}
+- {date: [2023-12-03, 2023-12-05], org: CUR, n: ~, NAT: 36.5, LAB: 28.8, GRN: 10.8, ACT: 6.2, NZF: 8.1, TPM: 5, TOP: ~}
+- {date: [2023-10-30, 2023-11-26], org: ROY, n: 920, NAT: 37.5, LAB: 21, GRN: 12.5, ACT: 12.5, NZF: 8, TPM: 2.5, TOP: 3.5}
+- {date: [2023-11-01, 2023-11-06], org: CUR, n: 1000, NAT: 37, LAB: 28.3, GRN: 13.8, ACT: 8.1, NZF: 6, TPM: 3.4, TOP: 2.9}
+
 '2023':
 - {date: [2023-10-14], NAT: 38.08, LAB: 26.92, GRN: 11.61, ACT: 8.64, NZF: 6.09, TPM: 3.08, TOP: 2.22}
 # Polls:

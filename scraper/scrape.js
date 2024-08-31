@@ -9,7 +9,7 @@ function parseOrg(org) {
 function parseData(label, value) {
     if (/date/i.test(label)) return ['date', `[${value}]`];
     if (/org/i.test(label)) return ['org', parseOrg(value)];
-    if (/size/i.test(label)) return ['n', value.replace(/\D/g, '')];
+    if (/size/i.test(label)) return ['n', value.replace(/[^\d.-]/g, '')];
     if (/lead/i.test(label)) return [,];
     else return [label, value.replace(/\W/g, '')];
 }
