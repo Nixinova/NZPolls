@@ -14,7 +14,7 @@ const rawData = fs.readFileSync(baseFolder + '../data.yml', { encoding: 'utf8' }
 const data = yaml.load(rawData);
 
 // Check year input
-const DEFAULT_ELECTION_YEAR = 2023;
+const DEFAULT_ELECTION_YEAR = 2026;
 const year = /\d{4}/.test(args[1]) ? args[1] : DEFAULT_ELECTION_YEAR;
 if (!data[year])
     throw `There is no data recorded for a ${year} election.`;
