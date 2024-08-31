@@ -35,9 +35,6 @@ ggplot(pollingData, aes(x = as.Date(endDate, '%Y-%m-%d'))) +
   # TOP
   geom_point(aes(y = TOP, colour = "TOP"), size = 2, alpha = 0.3) +
   geom_smooth(aes(y = TOP, colour = "TOP"), span = spansize, se = FALSE) +
-  # New Conservative
-  geom_point(aes(y = NCP, colour = "NCP"), size = 2, alpha = 0.3) +
-  geom_smooth(aes(y = NCP, colour = "NCP"), span = spansize, se = FALSE) +
 
   # Y-axis
   scale_y_continuous(limits = c(0, 55), breaks = c(0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60), minor_breaks = waiver(), expand = c(0, 0)) +
@@ -63,8 +60,7 @@ ggplot(pollingData, aes(x = as.Date(endDate, '%Y-%m-%d'))) +
       "GRN" = "Greens",
       "NZF" = "NZ First",
       "MRI" = "Maori",
-      "TOP" = "Opportunities",
-      "NCP" = "New Conservative"
+      "TOP"
     ),
     # Color mapping
     values = c(
@@ -74,8 +70,7 @@ ggplot(pollingData, aes(x = as.Date(endDate, '%Y-%m-%d'))) +
       "GRN" = "#098137",
       "NZF" = "#000000",
       "MRI" = "#B2001A",
-      "TOP" = "#32DAC3",
-      "NCP" = "#00AEEF"
+      "TOP" = "#32DAC3"
     )
   ) +
   theme(
