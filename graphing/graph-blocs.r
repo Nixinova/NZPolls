@@ -43,7 +43,7 @@ scale_color_manual(
 # Legend
     labels = c(
       "Left" = "LAB+GRN+MRI",
-      "Right" = "NAT+ACT"
+      "Right" = "NAT+ACT+NZF"
     ),
 # Color mapping
     values = c(
