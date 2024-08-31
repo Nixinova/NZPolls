@@ -84,9 +84,9 @@ for (let i = 0; i < count; i++) {
     csvData += partyData.n[i] + ',';
     const pollData = [];
     for (const party of PARTIES)
-        pollData.push(partyData[party][i]);
+        pollData.push(partyData[party][i] || 0);
     for (const bloc in BLOCS) {
-        pollData.push(partyData[bloc][i]);
+        pollData.push(partyData[bloc][i] || 0);
     }
     csvData += pollData.join(',') + '\n';
 }
