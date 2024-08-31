@@ -1,7 +1,7 @@
 # New Zealand Election Polling Data
 
 '2023':
-- {date: [null]}
+- {date: [2023-10-14], NAT: 38.08, LAB: 26.92, GRN: 11.61, ACT: 8.64, NZF: 6.09, TPM: 3.08, TOP: 2.22}
 # Polls:
 - {date: [2023-09-30, 2023-10-03], org: COL, n: 1000, LAB: 26, NAT: 36, GRN: 13, ACT: 10, MRI: 2.2, NZF: 6, TOP: 1.5 }
 - {date: [2023-09-22, 2023-09-28], org: TBM, n: 1027, LAB: 27, NAT: 38, GRN: 13, ACT: 9, MRI: 3.1, NZF: 6.4, TOP: 2.3 }
