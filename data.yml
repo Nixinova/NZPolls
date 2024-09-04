@@ -3,6 +3,7 @@
 '2026':
 - {date: [null]}
 # Polls:
+- {date: [2024-07-29, 2024-08-25], org: ROY, n: 898, NAT: 36, LAB: 26.5, GRN: 13, ACT: 9.5, NZF: 7.5, MRI: 3.5, TOP: 2.5}
 - {date: [2024-08-10, 2024-08-14], org: COL, n: 1001, NAT: 38, LAB: 30, GRN: 11, ACT: 7, NZF: 6, MRI: 4.2, TOP: 1.1}
 - {date: [2024-06-24, 2024-07-21], org: ROY, n: 930, NAT: 32.5, LAB: 24, GRN: 14, ACT: 11, NZF: 6.5, MRI: 6, TOP: 4.5}
 - {date: [2024-07-04, 2024-07-08], org: CUR, n: 1000, NAT: 37.6, LAB: 25.9, GRN: 12.5, ACT: 9.1, NZF: 7.3, MRI: 3.5, TOP: 2.4}
