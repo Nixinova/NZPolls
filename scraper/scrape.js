@@ -16,7 +16,7 @@ function parseData(label, value) {
     if (/org/i.test(label)) return ['org', parseOrg(value)];
     if (/size/i.test(label)) return ['n', value.replace(/[^\d.-]/g, '')];
     if (/lead/i.test(label)) return [,];
-    else return [parseParty(label), value.replace(/\W/g, '')];
+    else return [parseParty(label), value.replace(/[^\w.]/g, '')];
 }
 
 async function scrape() {
