@@ -9,6 +9,12 @@ The graphing script is written in the R programming language.
 - [R programming language](https://cran.rstudio.com)
 - [RStudio](https://www.rstudio.com/products/rstudio/download/), a development environment
 
+## Update the polling data source
+1. Copy the table [from Wikipedia](https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_New_Zealand_general_election)
+   into the [Scraper tool](https://nixinova.github.io/NZPolls/scraper/)
+   and generate the corresponding YAML.
+3. Copy this code into the data.yml file under its respective election section.
+
 ## Generate polling data
 1. Open your CLI and `cd` into `[...]/nzpolls/graphing`.
 2. Run `npm install` to install the necessary dependencies.
