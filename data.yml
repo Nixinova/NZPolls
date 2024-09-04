@@ -10,7 +10,6 @@
 - {date: [2024-06-15, 2024-06-19], org: COL, n: 1002, NAT: 38, LAB: 29, GRN: 13, ACT: 7, NZF: 6, MRI: 3.3, TOP: 1.5}
 - {date: [2024-06-04, 2024-06-06], org: CUR, n: 1000, NAT: 35.4, LAB: 29.4, GRN: 12.7, ACT: 9.7, NZF: 5.6, MRI: 4.0, TOP: 0.8}
 - {date: [2024-04-22, 2024-05-19], org: ROY, n: 925, NAT: 33.5, LAB: 30, GRN: 14, ACT: 9.5, NZF: 5.5, MRI: 3, TOP: 3}
-- {date: [2024-05-01, 2024-05-10], org: TBM, n: ~, NAT: 35, LAB: 32, GRN: ~, ACT: ~, NZF: ~, MRI: ~, TOP: ~}
 - {date: [2024-05-05, 2024-05-07], org: CUR, n: 1000, NAT: 37.3, LAB: 30, GRN: 10.2, ACT: 9.4, NZF: 5.5, MRI: 3.1, TOP: 1.4}
 - {date: [2024-04-30, 2024-04-30], org: TBM, n: ~, NAT: 34, LAB: 33, GRN: 12, ACT: 7, NZF: 6, MRI: 4, TOP: ~}
 - {date: [2024-04-20, 2024-04-24], org: COL, n: 1000, NAT: 36, LAB: 30, GRN: 14, ACT: 7, NZF: 4.2, MRI: 3.7, TOP: 1.2}
