@@ -11,8 +11,27 @@ function parseParty(label) {
     return label;
 }
 
+function parseDateStr(dateStr) {
+    const pad = x => x.toString().padStart(2, '0');
+    const toMonthNum = m => [, 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'].indexOf(m);
+    const sameMonthRegex = /(\d+)–(\d+) (\w+) (20\d+)/;
+    const diffMonthRegex = /(\d+) (\w+) *– *(\d+) (\w+) (20\d+)/;
+    if (sameMonthRegex.test(dateStr)) {
+        const [, d1, d2, m, y] = dateStr.match(sameMonthRegex);
+        const mn = toMonthNum(m);
+        return `${y}-${pad(mn)}-${pad(d1)}, ${y}-${pad(mn)}-${pad(d2)}`;
+    }
+    if (diffMonthRegex.test(dateStr)) {
+        const [, d1, m1, d2, m2, y] = dateStr.match(diffMonthRegex);
+        const mn1 = toMonthNum(m1);
+        const mn2 = toMonthNum(m2);
+        return `${y}-${pad(mn1)}-${pad(d1)}, ${y}-${pad(mn2)}-${pad(d2)}`;
+    }
+    return dateStr;
+}
+
 function parseData(label, value) {
-    if (/date/i.test(label)) return ['date', `[${value}]`];
+    if (/date/i.test(label)) return ['date', `[${parseDateStr(value)}]`];
     if (/org/i.test(label)) return ['org', parseOrg(value)];
     if (/size/i.test(label)) return ['n', value.replace(/[^\d.-]/g, '')];
     if (/lead/i.test(label)) return [,];
