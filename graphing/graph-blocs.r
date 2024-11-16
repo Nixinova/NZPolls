@@ -25,7 +25,7 @@ geom_point(aes(y = otherBloc, colour = "Other"), size = 2, alpha = 0.3) +
   geom_smooth(aes(y = otherBloc, colour = "Other"), span = spansize, se = FALSE) +
 
 # Y-axis
-scale_y_continuous(limits = c(0, 70), breaks = c(0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70), minor_breaks = waiver(), expand = c(0, 0)) +
+scale_y_continuous(limits = c(30, 65), breaks = c(0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70), minor_breaks = waiver(), expand = c(0, 0)) +
 # X-axis
 scale_x_date(date_breaks = "4 months", date_labels = "%b '%y", minor_breaks = "1 month") +
 # Axis styling
@@ -48,8 +48,7 @@ scale_color_manual(
 # Color mapping
     values = c(
       "Left" = "#B85300",
-      "Right" = "#5000B8",
-      "Other" = "#333333"
+      "Right" = "#5000B8"
     )
   ) +
   theme(
