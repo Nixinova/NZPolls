@@ -3,6 +3,13 @@
 '2026':
 - {date: [null]}
 # Polls:
+- {date: [2024-11-06, 2024-11-10], org: CUR, n: 1000, NAT: 38.8, LAB: 31.5, GRN: 9.3, ACT: 8.5, NZF: 6.5, MRI: 2.5, TOP: 0.9}
+- {date: [2024-09-23, 2024-10-20], org: ROY, n: 883, NAT: 31, LAB: 29, GRN: 14, ACT: 9, NZF: 7, MRI: 5, TOP: 2}
+- {date: [2024-10-05, 2024-10-09], org: COL, n: 1000, NAT: 37, LAB: 29, GRN: 12, ACT: 8, NZF: 5, MRI: 3.8, TOP: 2.6}
+- {date: [2024-10-03, 2024-10-07], org: CUR, n: 1000, NAT: 34.9, LAB: 30.3, GRN: 10.4, ACT: 9.7, NZF: 7.6, MRI: 3, TOP: 2.5}
+- {date: [2024-08-26, 2024-09-22], org: ROY, n: 902, NAT: 37.5, LAB: 23, GRN: 14, ACT: 10, NZF: 7.5, MRI: 4, TOP: 2.5}
+- {date: [2024-09-08, 2024-09-10], org: CUR, n: 1000, NAT: 39, LAB: 26.7, GRN: 11, ACT: 8.8, NZF: 6.8, MRI: 5, TOP: 1.1}
+- {date: [2024-09-01, 2024-09-10], org: TBM, n: ~, NAT: 37, LAB: 32, GRN: 10, ACT: 8, NZF: 6.1, MRI: 3.9, TOP: ~, Others: ~}
 - {date: [2024-07-29, 2024-08-25], org: ROY, n: 898, NAT: 36, LAB: 26.5, GRN: 13, ACT: 9.5, NZF: 7.5, MRI: 3.5, TOP: 2.5}
 - {date: [2024-08-10, 2024-08-14], org: COL, n: 1001, NAT: 38, LAB: 30, GRN: 11, ACT: 7, NZF: 6, MRI: 4.2, TOP: 1.1}
 - {date: [2024-06-24, 2024-07-21], org: ROY, n: 930, NAT: 32.5, LAB: 24, GRN: 14, ACT: 11, NZF: 6.5, MRI: 6, TOP: 4.5}
