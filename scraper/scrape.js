@@ -3,6 +3,7 @@ function parseOrg(org) {
     if (/Roy Morgan/.test(org)) return 'ROY';
     if (/Curia/.test(org)) return 'CUR';
     if (/Talbot/.test(org)) return 'TBM';
+    if (/Freshwater/.test(org)) return 'FWS';
     else return org;
 }
 
