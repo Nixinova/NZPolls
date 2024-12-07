@@ -46,7 +46,6 @@ async function scrape() {
     const tableContents = inElem.value.trim();
     const [headerRow, ...contentRows] = tableContents.split('\n').map(row => row.split('\t'))
         .filter(rows => rows.length > 5);
-    const headersObj = headerRow.map(header => ({ [header]: [] })); // turn array into keyset
 
     // construct yaml output
     let output = "";
@@ -56,6 +55,7 @@ async function scrape() {
         for (const i in rowData) {
             const [label, val] = parseData(headerRow[i], rowData[i]);
             if (label == null || val == null) continue;
+            if (label === 'Others') continue;
             rowArr.push(label + ': ' + (val || '~'));
         }
         output += rowArr.join(', ');
@@ -63,3 +63,4 @@ async function scrape() {
     }
     outElem.value = output;
 }
+
