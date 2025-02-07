@@ -3,6 +3,13 @@
 '2026':
 - {date: [null]}
 # Polls:
+- {date: [2025-01-07, 2025-01-27], org: TBM, n: 1049, NAT: 33, LAB: 34, GRN: 12, ACT: 9, NZF: 5.2, MRI: 4.6, TOP: ~}
+- {date: [2025-01-02, 2025-01-26], org: ROY, n: 885, NAT: 32.5, LAB: 28.5, GRN: 11.5, ACT: 9, NZF: 8.5, MRI: 6.5, TOP: 1.5}
+- {date: [2025-01-09, 2025-01-13], org: CUR, n: 1000, NAT: 29.6, LAB: 30.9, GRN: 9.5, ACT: 10.8, NZF: 8.1, MRI: 5.3, TOP: 2.1}
+- {date: [2024-11-25, 2024-12-15], org: ROY, n: 885, NAT: 31, LAB: 26, GRN: 13.5, ACT: 13, NZF: 7.5, MRI: 5.5, TOP: 1}
+
+- {date: [2024-11-30, 2024-12-04], org: COL, n: 1006, NAT: 37, LAB: 29, GRN: 10, ACT: 8, NZF: 6, MRI: 7, TOP: 1.5}
+- {date: [2024-12-01, 2024-12-03], org: CUR, n: 1000, NAT: 34.2, LAB: 26.9, GRN: 8.3, ACT: 13, NZF: 5.4, MRI: 5.5, TOP: 1.1}
 - {date: [2024-11-22, 2024-11-28], org: TBM, n: ~, NAT: 31, LAB: 32, GRN: 10, ACT: 10, NZF: 6, MRI: 7, TOP: ~}
 - {date: [2024-11-26, 2024-11-27], org: FWS, n: 1150, NAT: 34, LAB: 31, GRN: 13, ACT: 8, NZF: 6, MRI: 4, TOP: ~}
 - {date: [2024-10-28, 2024-11-24], org: ROY, n: 866, NAT: 28.5, LAB: 28, GRN: 13.5, ACT: 9, NZF: 6.5, MRI: 9, TOP: 3.5}
