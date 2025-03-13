@@ -42,8 +42,8 @@ scale_color_manual(
     name = "",
 # Legend
     labels = c(
-      "Left" = "LAB+GRN+MRI",
-      "Right" = "NAT+ACT+NZF"
+      "Left" = "Labour–Green–Māori",
+      "Right" = "National–ACT–NZ First"
     ),
 # Color mapping
     values = c(
