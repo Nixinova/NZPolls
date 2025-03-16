@@ -37,7 +37,12 @@ ggplot(pollingData, aes(x = as.Date(endDate, '%Y-%m-%d'))) +
   geom_smooth(aes(y = TOP, colour = "TOP"), span = spansize, se = FALSE) +
 
   # Y-axis
-  scale_y_continuous(limits = c(0, 55), breaks = c(0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60), minor_breaks = waiver(), expand = c(0, 0)) +
+  scale_y_continuous(
+    #limits = c(0, 55),
+    breaks = c(0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60),
+    minor_breaks = waiver(),
+    expand = c(0, 0)
+  ) +
   # X-axis
   scale_x_date(date_breaks = "4 months", date_labels = "%b '%y", minor_breaks = "1 month") +
   # Axis styling
