@@ -3,6 +3,10 @@
 '2026':
 - {date: [null]}
 # Polls:
+- {date: [2025-03-29, 2025-04-02], org: COL, n: 1000, NAT: 36, LAB: 32, GRN: 10, ACT: 9, NZF: 7, MRI: 3.4, TOP: 2.1}
+- {date: [2025-03-29, 2025-04-01], org: CUR, n: 1000, NAT: 33.5, LAB: 29.8, GRN: 11, ACT: 10, NZF: 7.4, MRI: 4.3, TOP: 1.5}
+- {date: [2025-03-21, 2025-03-27], org: REI, n: 1000, NAT: 32.9, LAB: 32.3, GRN: 10, ACT: 9.4, NZF: 7.2, MRI: 5, TOP: 1.8}
+- {date: [2025-02-24, 2025-03-23], org: ROY, n: 888, NAT: 32.5, LAB: 27.5, GRN: 14.5, ACT: 7.5, NZF: 7, MRI: 5.5, TOP: 4}
 - {date: [2025-03-01, 2025-03-10], org: TBM, n: 1003, NAT: 31, LAB: 34, GRN: 10, ACT: 10, NZF: 6.1, MRI: 4.4, TOP: ~}
 - {date: [2025-03-02, 2025-03-04], org: CUR, n: 1000, NAT: 33.6, LAB: 34.1, GRN: 10, ACT: 7.7, NZF: 5.1, MRI: 6.5, TOP: 0.5}
 - {date: [2025-01-27, 2025-02-23], org: ROY, n: 888, NAT: 30.5, LAB: 29, GRN: 15.5, ACT: 11, NZF: 6, MRI: 3, TOP: 2.5}
