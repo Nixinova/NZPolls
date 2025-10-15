@@ -8,6 +8,9 @@
         body {
             font-family: sans-serif;
         }
+        a {
+            text-decoration: none;
+        }
     </style>
 </head>
 
@@ -19,10 +22,12 @@
 
     <h2>Wikitable Plaintext Input</h2>
     <p style="font-style: italic;">
-        (Just copy/paste
+        Just copy and paste
         <a href="https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_New_Zealand_general_election#Party_vote">
             the Wikipedia table
-        </a> here.)
+        </a>
+        here, including the header line.
+        Be sure to remove any of the non-poll content rows.
     </p>
     <textarea id="in" style="height: 200px; width: 100%;"></textarea>
     <br />
@@ -31,8 +36,18 @@
     <br />
 
     <h2>YAML Output</h>
+    <div>
         <textarea id="out" style="height: 200px; width: 100%;"></textarea>
         <br />
+        <script>
+            const placeholder = `Example:
+Date	Polling organisation	Sample size	NAT	LAB	GRN	ACT	NZF	TPM	TOP	Others	Lead
+1–10 Oct 2025	Talbot Mills	1,097	29	35	10	8	12	4	–	–	6
+4–8 Oct 2025	1 News–Verian	1,014	34	32	11	8	9	2.8	0.8	2.4	2
+            `;
+            document.querySelector('#out').setAttribute('placeholder', placeholder);
+        </script>
+    </div>
 </body>
 
 </html>

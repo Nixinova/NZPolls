@@ -4,6 +4,7 @@ function parseOrg(org) {
     if (/Curia/.test(org)) return 'CUR';
     if (/Talbot/.test(org)) return 'TBM';
     if (/Freshwater/.test(org)) return 'FWS';
+    if (/Reid/.test(org)) return 'REI';
     else return org;
 }
 
