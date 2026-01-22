@@ -1,8 +1,17 @@
 # New Zealand Election Polling Data
 
 '2026':
-- {date: [null]}
+- {date: [2026-11-07]}
 # Polls:
+- {date: [2026-01-14, 2026-01-18], org: CUR, n: 1000, NAT: 31.5, LAB: 34.4, GRN: 7.7, ACT: 7, NZF: 11.9, MRI: 3, TOP: 0.7}
+- {date: [2025-11-25, 2025-12-21], org: ROY, n: 859, NAT: 33, LAB: 32.5, GRN: 12, ACT: 7.5, NZF: 10, MRI: 2.5, TOP: 2.5}
+- {date: [2025-12-05, 2025-12-10], org: FWS, n: 1031, NAT: 30, LAB: 38, GRN: 8, ACT: 8, NZF: 9, MRI: 2, TOP: ~}
+- {date: [2025-12-03, 2025-12-07], org: CUR, n: 1000, NAT: 30, LAB: 31.6, GRN: 10.8, ACT: 8.9, NZF: 8.1, MRI: 3.1, TOP: 1.6}
+- {date: [2025-11-29, 2025-12-03], org: COL, n: 1007, NAT: 36, LAB: 35, GRN: 7, ACT: 10, NZF: 9, MRI: 0.6, TOP: 0.4}
+- {date: [2025-10-27, 2025-11-23], org: ROY, n: 829, NAT: 33, LAB: 28, GRN: 14.5, ACT: 8, NZF: 9, MRI: 2, TOP: 2.5}
+- {date: [2025-11-01, 2025-11-10], org: TBM, n: 1000, NAT: 33, LAB: 38, GRN: 9, ACT: 7, NZF: 8, MRI: 2.4, TOP: ~}
+- {date: [2025-11-02, 2025-11-06], org: CUR, n: 1000, NAT: 30.2, LAB: 33.3, GRN: 9.2, ACT: 8.6, NZF: 9.1, MRI: 3.3, TOP: 1.2}
+- {date: [2025-09-29, 2025-10-26], org: ROY, n: 857, NAT: 32, LAB: 30.5, GRN: 12, ACT: 8, NZF: 9.5, MRI: 2.5, TOP: 2.5}
 - {date: [2025-10-01, 2025-10-10], org: TBM, n: 1097, NAT: 29, LAB: 35, GRN: 10, ACT: 8, NZF: 12, MRI: 4, TOP: ~}
 - {date: [2025-10-04, 2025-10-08], org: COL, n: 1014, NAT: 34, LAB: 32, GRN: 11, ACT: 8, NZF: 9, MRI: 2.8, TOP: 0.8}
 - {date: [2025-10-03, 2025-10-08], org: FWS, n: 1050, NAT: 31, LAB: 34, GRN: 9, ACT: 9, NZF: 11, MRI: 3, TOP: ~}
