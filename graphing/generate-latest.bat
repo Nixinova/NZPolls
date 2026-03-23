@@ -1,1 +1,1 @@
-npm i && node . 2026
+npm ci && node . 2026
