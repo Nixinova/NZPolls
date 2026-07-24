@@ -12,14 +12,14 @@ Each election has its own root-level array sorted in reverse chronological order
 - ACT: ACT
 - GRN: Green
 - INM: Internet/Mana
-- INT: Internet Party
+- INT: Internet
 - LAB: Labour
 - MNA: Mana
 - MRI: Maori
 - NAT: National
 - NCP: New Conservative
 - NZF: NZ First
-- TOP: Opportunities
+- TOP: Opportunity
 - UNF: United Future
 
 ## Pollsters
