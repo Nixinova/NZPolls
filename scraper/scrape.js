@@ -10,6 +10,7 @@ function parseOrg(org) {
 
 function parseParty(label) {
     if (label === 'TPM') return 'MRI';
+    if (label === 'OPP') return 'TOP';
     return label;
 }
 
