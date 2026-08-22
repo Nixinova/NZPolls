@@ -65,7 +65,7 @@ ggplot(pollingData, aes(x = as.Date(endDate, '%Y-%m-%d'))) +
       "GRN" = "Greens",
       "NZF" = "NZ First",
       "MRI" = "Maori",
-      "TOP"
+      "TOP" = "Opportunity"
     ),
     # Color mapping
     values = c(
