@@ -2,7 +2,7 @@ function parseOrg(org) {
     if (/1 News/.test(org)) return 'COL';
     if (/Roy Morgan/.test(org)) return 'ROY';
     if (/Curia/.test(org)) return 'CUR';
-    if (/Talbot/.test(org)) return 'TBM';
+    if (/Talbot|Anacta/.test(org)) return 'TBM';
     if (/Freshwater/.test(org)) return 'FWS';
     if (/Reid/.test(org)) return 'REI';
     else return org;
